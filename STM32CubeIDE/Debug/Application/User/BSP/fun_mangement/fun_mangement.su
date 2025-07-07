@@ -1,0 +1,5 @@
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/fun_mangement/fun_mangement.c:20:6:control_fun_with_co2	40	static
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/fun_mangement/fun_mangement.c:39:6:control_fun_from_UI	16	static
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/fun_mangement/fun_mangement.c:46:6:fun_forced_en_off	8	static
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/fun_mangement/fun_mangement.c:51:6:fun_forced_on	8	static
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/fun_mangement/fun_mangement.c:56:6:set_fun_in_manuel_mode	8	static

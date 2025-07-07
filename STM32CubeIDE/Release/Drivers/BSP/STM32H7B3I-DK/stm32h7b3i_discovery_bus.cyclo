@@ -1,0 +1,9 @@
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_bus.c:227:9:BSP_I2C4_DeInit	3
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_bus.c:255:26:MX_I2C4_Init	3
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_bus.c:184:9:BSP_I2C4_Init	24
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_bus.c:301:9:BSP_I2C4_WriteReg	2
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_bus.c:332:9:BSP_I2C4_ReadReg	2
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_bus.c:363:9:BSP_I2C4_WriteReg16	2
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_bus.c:394:9:BSP_I2C4_ReadReg16	2
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_bus.c:424:9:BSP_I2C4_IsReady	1
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_bus.c:440:9:BSP_GetTick	1

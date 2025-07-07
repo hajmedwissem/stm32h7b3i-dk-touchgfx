@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/alert_screen/AlertPresenter.hpp:28:13:AlertPresenter::~AlertPresenter()	1
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/alert_screen/AlertPresenter.cpp:10:6:virtual void AlertPresenter::activate()	1
+../../TouchGFX/gui/include/gui/alert_screen/AlertPresenter.hpp:28:13:virtual AlertPresenter::~AlertPresenter()	1
+../../TouchGFX/gui/include/gui/alert_screen/AlertPresenter.hpp:28:13:virtual void* AlertPresenter::_ZThn4_N14AlertPresenterD1Ev()	1
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/alert_screen/AlertPresenter.cpp:4:1:AlertPresenter::AlertPresenter(AlertView&)	1

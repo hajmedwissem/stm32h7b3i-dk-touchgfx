@@ -1,0 +1,17 @@
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.c:1121:16:OSPI_NOR_EnterSOPIMode.constprop	32	static
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.c:1056:16:OSPI_NOR_EnterDOPIMode.constprop	32	static
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.c:246:26:MX_OSPI_NOR_Init	0	static
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.c:358:9:BSP_OSPI_NOR_Read	32	static
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.c:394:9:BSP_OSPI_NOR_Write	40	static
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.c:482:9:BSP_OSPI_NOR_Erase_Block	24	static
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.c:517:9:BSP_OSPI_NOR_Erase_Chip	8	static
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.c:552:9:BSP_OSPI_NOR_GetStatus	16	static
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.c:597:9:BSP_OSPI_NOR_GetInfo	8	static
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.c:620:9:BSP_OSPI_NOR_EnableMemoryMappedMode	8	static
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.c:662:9:BSP_OSPI_NOR_DisableMemoryMappedMode	8	static
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.c:197:9:BSP_OSPI_NOR_DeInit	8	static
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.c:696:9:BSP_OSPI_NOR_ReadID	8	static
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.c:726:9:BSP_OSPI_NOR_ConfigFlash	40	static
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.c:118:9:BSP_OSPI_NOR_Init	144	static,ignoring_inline_asm
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.c:804:9:BSP_OSPI_NOR_SuspendErase	8	static
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.c:839:9:BSP_OSPI_NOR_ResumeErase	8	static

@@ -1,0 +1,13 @@
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:37:18:virtual void touchgfx::Presenter::activate()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:47:18:virtual void touchgfx::Presenter::deactivate()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:52:13:touchgfx::Presenter::~Presenter()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:52:13:virtual touchgfx::Presenter::~Presenter()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:58:5:touchgfx::Presenter::Presenter()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:9:5:ModelListener::ModelListener()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:11:13:ModelListener::~ModelListener()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:11:13:virtual ModelListener::~ModelListener()	1
+../../TouchGFX/gui/include/gui/setting_screen/SettingPresenter.hpp:28:13:SettingPresenter::~SettingPresenter()	1
+../../TouchGFX/gui/include/gui/setting_screen/SettingPresenter.hpp:28:13:virtual SettingPresenter::~SettingPresenter()	1
+C:/Users/USER/Desktop/tpe_19_02/tpe/TouchGFX/gui/src/setting_screen/SettingPresenter.cpp:4:1:SettingPresenter::SettingPresenter(SettingView&)	1
+C:/Users/USER/Desktop/tpe_19_02/tpe/TouchGFX/gui/src/setting_screen/SettingPresenter.cpp:10:6:virtual void SettingPresenter::activate()	1
+C:/Users/USER/Desktop/tpe_19_02/tpe/TouchGFX/gui/src/setting_screen/SettingPresenter.cpp:15:6:virtual void SettingPresenter::deactivate()	1

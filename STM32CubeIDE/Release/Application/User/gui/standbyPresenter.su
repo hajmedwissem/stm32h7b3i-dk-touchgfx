@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/standby_screen/standbyPresenter.hpp:28:13:standbyPresenter::~standbyPresenter()	0	static
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/standby_screen/standbyPresenter.cpp:10:6:virtual void standbyPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/standby_screen/standbyPresenter.hpp:28:13:virtual standbyPresenter::~standbyPresenter()	8	static
+../../TouchGFX/gui/include/gui/standby_screen/standbyPresenter.hpp:28:13:virtual void* standbyPresenter::_ZThn4_N16standbyPresenterD1Ev()	0	static
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/standby_screen/standbyPresenter.cpp:4:1:standbyPresenter::standbyPresenter(standbyView&)	0	static

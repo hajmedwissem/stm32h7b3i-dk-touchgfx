@@ -1,0 +1,8 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/about_screen/AboutView.cpp:13:6:virtual void AboutView::tearDownScreen()	1
+../../TouchGFX/gui/include/gui/about_screen/AboutView.hpp:11:13:AboutView::~AboutView()	1
+../../TouchGFX/gui/include/gui/about_screen/AboutView.hpp:11:13:virtual AboutView::~AboutView()	1
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/about_screen/AboutView.cpp:3:1:AboutView::AboutView()	1
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/about_screen/AboutView.cpp:8:6:virtual void AboutView::setupScreen()	1

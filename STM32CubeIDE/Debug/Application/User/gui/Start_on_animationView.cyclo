@@ -1,0 +1,10 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:115:18:virtual void touchgfx::Screen::tearDownScreen()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/start_on_animation_screen/Start_on_animationViewBase.hpp:24:18:virtual void Start_on_animationViewBase::action1()	1
+../../TouchGFX/gui/include/gui/start_on_animation_screen/Start_on_animationView.hpp:11:13:Start_on_animationView::~Start_on_animationView()	1
+../../TouchGFX/gui/include/gui/start_on_animation_screen/Start_on_animationView.hpp:11:13:virtual Start_on_animationView::~Start_on_animationView()	1
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/gui/src/start_on_animation_screen/Start_on_animationView.cpp:3:1:Start_on_animationView::Start_on_animationView()	1
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/gui/src/start_on_animation_screen/Start_on_animationView.cpp:8:6:virtual void Start_on_animationView::setupScreen()	1
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/gui/src/start_on_animation_screen/Start_on_animationView.cpp:13:6:virtual void Start_on_animationView::tearDownScreen()	1

@@ -1,0 +1,5 @@
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/co2_sensor_mangement/co2_sensor_mangement.c:56:6:co2_task_init	1
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/co2_sensor_mangement/co2_sensor_mangement.c:70:6:start_co2_task	1
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/co2_sensor_mangement/co2_sensor_mangement.c:77:13:co2_task	2
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/co2_sensor_mangement/co2_sensor_mangement.c:98:13:add_co2_to_queue	2
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/co2_sensor_mangement/co2_sensor_mangement.c:115:9:get_co2_from_queue	2

@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/start_on_animation_screen/Start_on_animationPresenter.hpp:28:13:Start_on_animationPresenter::~Start_on_animationPresenter()	0	static
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/start_on_animation_screen/Start_on_animationPresenter.cpp:10:6:virtual void Start_on_animationPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/start_on_animation_screen/Start_on_animationPresenter.hpp:28:13:virtual Start_on_animationPresenter::~Start_on_animationPresenter()	8	static
+../../TouchGFX/gui/include/gui/start_on_animation_screen/Start_on_animationPresenter.hpp:28:13:virtual void* Start_on_animationPresenter::_ZThn4_N27Start_on_animationPresenterD1Ev()	0	static
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/start_on_animation_screen/Start_on_animationPresenter.cpp:4:1:Start_on_animationPresenter::Start_on_animationPresenter(Start_on_animationView&)	0	static

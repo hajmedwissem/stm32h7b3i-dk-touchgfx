@@ -1,0 +1,6 @@
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/settings/Settings.c:43:6:load_settings_from_flash	24	static
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/settings/Settings.c:64:6:get_settings	16	static
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/settings/Settings.c:72:6:save_settings	72	static
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/settings/Settings.c:124:6:get_user_mode_selected	4	static
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/settings/Settings.c:130:9:get_hum_thr	4	static
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/settings/Settings.c:134:10:get_co2_thr	4	static

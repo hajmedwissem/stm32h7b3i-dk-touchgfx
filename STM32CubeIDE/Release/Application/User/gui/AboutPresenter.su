@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/about_screen/AboutPresenter.hpp:28:13:AboutPresenter::~AboutPresenter()	0	static
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/about_screen/AboutPresenter.cpp:10:6:virtual void AboutPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/about_screen/AboutPresenter.hpp:28:13:virtual AboutPresenter::~AboutPresenter()	8	static
+../../TouchGFX/gui/include/gui/about_screen/AboutPresenter.hpp:28:13:virtual void* AboutPresenter::_ZThn4_N14AboutPresenterD1Ev()	0	static
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/about_screen/AboutPresenter.cpp:4:1:AboutPresenter::AboutPresenter(AboutView&)	0	static

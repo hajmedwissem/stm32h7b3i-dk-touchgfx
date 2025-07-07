@@ -1,0 +1,3 @@
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/drivers/hum_drv/hum_drv.c:43:13:humidity_ADC1_Init	48	static
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/drivers/hum_drv/hum_drv.c:106:6:humidity_sensor_init	8	static
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/drivers/hum_drv/hum_drv.c:116:10:read_humidity_sensor	8	static

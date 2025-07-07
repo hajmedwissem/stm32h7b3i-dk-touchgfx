@@ -1,0 +1,1478 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Start_on_animation",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "__generated\\light_theme_images_backgrounds_480x272_subtle_shift.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "Width": 480,
+            "Height": 93,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 45,
+            "Y": 99,
+            "Width": 391,
+            "Height": 48,
+            "TextId": "__SingleUse_M2R5",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 100
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Home"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "action1"
+          }
+        ]
+      },
+      {
+        "Name": "Home",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "page_bg",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "__generated\\light_theme_images_backgrounds_480x272_subtle_shift.png"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "FSM_logo",
+            "X": 379,
+            "Y": 14,
+            "Width": 97,
+            "Height": 94,
+            "Filename": "FSM.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "university_of_monastir_logo",
+            "X": 6,
+            "Y": 8,
+            "Width": 80,
+            "Height": 100,
+            "Filename": "monastir_logo.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Container",
+            "Name": "PB",
+            "X": 20,
+            "Y": 118,
+            "Width": 434,
+            "Height": 100,
+            "Components": [
+              {
+                "Type": "FlexButton",
+                "Name": "Settings_PB",
+                "X": 12,
+                "Y": 17,
+                "Width": 65,
+                "Height": 66,
+                "ButtonTrigger": {
+                  "Type": "ClickButtonTrigger"
+                },
+                "ButtonStyles": [
+                  {
+                    "Type": "ImageButtonStyle",
+                    "ImageReleased": "settings.png",
+                    "ImagePressed": "settings.png"
+                  }
+                ]
+              },
+              {
+                "Type": "FlexButton",
+                "Name": "status_PB",
+                "X": 138,
+                "Y": 18,
+                "Width": 64,
+                "Height": 65,
+                "ButtonTrigger": {
+                  "Type": "ClickButtonTrigger"
+                },
+                "ButtonStyles": [
+                  {
+                    "Type": "ImageButtonStyle",
+                    "ImageReleased": "monitor.png",
+                    "ImagePressed": "monitor.png"
+                  }
+                ]
+              },
+              {
+                "Type": "FlexButton",
+                "Name": "about_PB",
+                "X": 372,
+                "Y": 16,
+                "Width": 62,
+                "Height": 61,
+                "ButtonTrigger": {
+                  "Type": "ClickButtonTrigger"
+                },
+                "ButtonStyles": [
+                  {
+                    "Type": "ImageButtonStyle",
+                    "ImageReleased": "information.png",
+                    "ImagePressed": "information.png"
+                  }
+                ]
+              },
+              {
+                "Type": "FlexButton",
+                "Name": "Alert_PB",
+                "X": 259,
+                "Y": 15,
+                "Width": 62,
+                "Height": 62,
+                "ButtonTrigger": {
+                  "Type": "ClickButtonTrigger"
+                },
+                "ButtonStyles": [
+                  {
+                    "Type": "ImageButtonStyle",
+                    "ImageReleased": "alert.png",
+                    "ImagePressed": "alert.png"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "Power_Off",
+            "X": 431,
+            "Y": 228,
+            "Width": 33,
+            "Height": 35,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "power-on.png",
+                "ImagePressed": "power-on.png"
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "home_page",
+            "X": 180,
+            "Y": 21,
+            "Width": 120,
+            "Height": 48,
+            "TextId": "__SingleUse_36TX",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 19,
+              "Green": 41,
+              "Blue": 209
+            },
+            "AutoSize": true,
+            "LineSpacing": 1,
+            "WideTextAction": 6
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "settings_action",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Settings_PB"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "settings"
+            }
+          },
+          {
+            "InteractionName": "about_action",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "about_PB"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "About"
+            }
+          },
+          {
+            "InteractionName": "Status_action",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "status_PB"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Status"
+            }
+          },
+          {
+            "InteractionName": "alert_action",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Alert_PB"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Alert"
+            }
+          },
+          {
+            "InteractionName": "power_off_action",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Power_Off"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "South",
+              "ActionComponent": "standby"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "settings",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScrollableContainer",
+            "Name": "settings_Cont",
+            "Y": 2,
+            "Width": 480,
+            "Height": 272,
+            "HorizontalScrollEnabled": true,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisibleOnPressed": true,
+            "ScrollbarsAlpha": 255,
+            "Components": [
+              {
+                "Type": "ScalableImage",
+                "Name": "page_bg",
+                "Width": 480,
+                "Height": 383,
+                "Filename": "graph_bg.png",
+                "ScalingAlgorithm": "Nearest-neighbor"
+              },
+              {
+                "Type": "Container",
+                "Name": "auto_settings_container",
+                "X": 8,
+                "Y": 155,
+                "Width": 470,
+                "Height": 234,
+                "Components": [
+                  {
+                    "Type": "Slider",
+                    "Name": "CO2_slider",
+                    "X": 263,
+                    "Y": 81,
+                    "Width": 203,
+                    "Height": 54,
+                    "IsHorizontalSlider": true,
+                    "BackgroundUnselected": "Blue_Slider_Vertical_Small_Slider_Vertical_Round_back.png",
+                    "BackgroundSelected": "Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fil.png",
+                    "Indicator": "Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 16,
+                    "BackgroundY": 15,
+                    "IndicatorMax": 169,
+                    "ValueMax": 100
+                  },
+                  {
+                    "Type": "Slider",
+                    "Name": "humidity_slider",
+                    "X": 3,
+                    "Y": 81,
+                    "Width": 203,
+                    "Height": 54,
+                    "IsHorizontalSlider": true,
+                    "BackgroundUnselected": "Blue_Slider_Vertical_Small_Slider_Vertical_Round_back.png",
+                    "BackgroundSelected": "Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fil.png",
+                    "Indicator": "Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 16,
+                    "BackgroundY": 10,
+                    "IndicatorMax": 169,
+                    "ValueMax": 100
+                  },
+                  {
+                    "Type": "Slider",
+                    "Name": "water_pump_slider",
+                    "X": 3,
+                    "Y": 168,
+                    "Width": 203,
+                    "Height": 54,
+                    "IsHorizontalSlider": true,
+                    "BackgroundUnselected": "Blue_Slider_Vertical_Small_Slider_Vertical_Round_back.png",
+                    "BackgroundSelected": "Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fil.png",
+                    "Indicator": "Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 16,
+                    "BackgroundY": 15,
+                    "IndicatorMax": 169,
+                    "ValueMax": 100
+                  },
+                  {
+                    "Type": "Slider",
+                    "Name": "fun_slider",
+                    "X": 269,
+                    "Y": 168,
+                    "Width": 203,
+                    "Height": 54,
+                    "IsHorizontalSlider": true,
+                    "BackgroundUnselected": "Blue_Slider_Vertical_Small_Slider_Vertical_Round_back.png",
+                    "BackgroundSelected": "Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fil.png",
+                    "Indicator": "Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 16,
+                    "BackgroundY": 15,
+                    "IndicatorMax": 169,
+                    "ValueMax": 100
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "CO2_threshold",
+                    "X": 263,
+                    "Y": 54,
+                    "Width": 108,
+                    "Height": 18,
+                    "TextId": "__SingleUse_W7GQ",
+                    "TextRotation": "0",
+                    "AutoSize": true,
+                    "Wildcard1": {}
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "water_pump_speed",
+                    "X": 10,
+                    "Y": 142,
+                    "Width": 139,
+                    "Height": 18,
+                    "TextId": "__SingleUse_ADOZ",
+                    "TextRotation": "0",
+                    "AutoSize": true,
+                    "Wildcard1": {}
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "humidity_threshold",
+                    "X": 10,
+                    "Y": 54,
+                    "Width": 143,
+                    "Height": 18,
+                    "TextId": "__SingleUse_O4WV",
+                    "TextRotation": "0",
+                    "AutoSize": true,
+                    "Wildcard1": {}
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "fun_speed",
+                    "X": 269,
+                    "Y": 151,
+                    "Width": 74,
+                    "Height": 18,
+                    "TextId": "__SingleUse_IJ1P",
+                    "TextRotation": "0",
+                    "AutoSize": true,
+                    "Wildcard1": {}
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "auto_settings",
+                    "X": 164,
+                    "Y": 11,
+                    "Width": 113,
+                    "Height": 21,
+                    "TextId": "__SingleUse_EKCY",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 69,
+                      "Green": 71,
+                      "Blue": 87
+                    },
+                    "AutoSize": true
+                  }
+                ]
+              },
+              {
+                "Type": "TextArea",
+                "Name": "auto_text",
+                "X": 308,
+                "Y": 90,
+                "Width": 52,
+                "Height": 23,
+                "TextId": "__SingleUse_3NZG",
+                "TextRotation": "0",
+                "AutoSize": true
+              },
+              {
+                "Type": "FlexButton",
+                "Name": "back_pb",
+                "X": 18,
+                "Y": 16,
+                "Width": 33,
+                "Height": 33,
+                "ButtonTrigger": {
+                  "Type": "ClickButtonTrigger"
+                },
+                "ButtonStyles": [
+                  {
+                    "Type": "ImageButtonStyle",
+                    "ImageReleased": "undo.png",
+                    "ImagePressed": "undo.png"
+                  }
+                ]
+              },
+              {
+                "Type": "TextArea",
+                "Name": "manuel_text",
+                "X": 72,
+                "Y": 90,
+                "Width": 86,
+                "Height": 23,
+                "TextId": "__SingleUse_YBK6",
+                "TextRotation": "0",
+                "AutoSize": true
+              },
+              {
+                "Type": "Line",
+                "Name": "line1",
+                "X": -1,
+                "Y": 136,
+                "Width": 481,
+                "Height": 15,
+                "Color": {
+                  "Red": 62,
+                  "Green": 151,
+                  "Blue": 214
+                },
+                "StartX": 5.0,
+                "StartY": 6.7,
+                "EndX": 477.3,
+                "EndY": 6.8,
+                "LineWidth": 10.0,
+                "LineEndingStyle": "Square"
+              },
+              {
+                "Type": "Container",
+                "Name": "manuel_settings_container",
+                "X": 2,
+                "Y": 151,
+                "Width": 478,
+                "Height": 202,
+                "Visible": false,
+                "Components": [
+                  {
+                    "Type": "Slider",
+                    "Name": "fun_control_slider",
+                    "X": 262,
+                    "Y": 92,
+                    "Width": 203,
+                    "Height": 54,
+                    "IsHorizontalSlider": true,
+                    "BackgroundUnselected": "Blue_Slider_Vertical_Small_Slider_Vertical_Round_back.png",
+                    "BackgroundSelected": "Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fil.png",
+                    "Indicator": "Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 16,
+                    "BackgroundY": 13,
+                    "IndicatorMax": 169,
+                    "ValueMax": 100
+                  },
+                  {
+                    "Type": "Slider",
+                    "Name": "pump_control_slider",
+                    "X": 6,
+                    "Y": 92,
+                    "Width": 203,
+                    "Height": 54,
+                    "IsHorizontalSlider": true,
+                    "BackgroundUnselected": "Blue_Slider_Vertical_Small_Slider_Vertical_Round_back.png",
+                    "BackgroundSelected": "Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fil.png",
+                    "Indicator": "Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 16,
+                    "BackgroundY": 14,
+                    "IndicatorMax": 169,
+                    "ValueMax": 100
+                  },
+                  {
+                    "Type": "ToggleButton",
+                    "Name": "fun_Button",
+                    "X": 358,
+                    "Y": 54,
+                    "Width": 62,
+                    "Height": 34,
+                    "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_small_round_small_on_action.png",
+                    "Released": "__generated\\alternate_theme_images_widgets_togglebutton_small_round_small_off_dark.png"
+                  },
+                  {
+                    "Type": "ToggleButton",
+                    "Name": "pump_Button",
+                    "X": 121,
+                    "Y": 54,
+                    "Width": 62,
+                    "Height": 34,
+                    "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_small_round_small_on_action.png",
+                    "Released": "__generated\\alternate_theme_images_widgets_togglebutton_small_round_small_off_dark.png"
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "pump_control",
+                    "X": 6,
+                    "Y": 60,
+                    "Width": 107,
+                    "Height": 18,
+                    "TextId": "__SingleUse_JO1F",
+                    "TextRotation": "0",
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "fun_control",
+                    "X": 262,
+                    "Y": 60,
+                    "Width": 89,
+                    "Height": 18,
+                    "TextId": "__SingleUse_C8HC",
+                    "TextRotation": "0",
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "manuel_settings",
+                    "X": 164,
+                    "Y": 10,
+                    "Width": 139,
+                    "Height": 21,
+                    "TextId": "__SingleUse_EY1U",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 69,
+                      "Green": 71,
+                      "Blue": 87
+                    },
+                    "AutoSize": true
+                  }
+                ]
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "auto_manuel_pb",
+                "X": 175,
+                "Y": 76,
+                "Width": 110,
+                "Height": 50,
+                "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_medium_round_off_light.png",
+                "Released": "__generated\\alternate_theme_images_widgets_togglebutton_medium_round_on_normal.png",
+                "Preset": "alternate_theme\\presets\\togglebutton\\medium\\round.json"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "settings_page",
+                "X": 175,
+                "Y": 11,
+                "Width": 159,
+                "Height": 48,
+                "TextId": "__SingleUse_Z4I5",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 19,
+                  "Green": 41,
+                  "Blue": 209
+                },
+                "AutoSize": true
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "back_action",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "back_pb"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Home"
+            }
+          },
+          {
+            "InteractionName": "auto_settings_action",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "auto_manuel_pb"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "auto_settings_container"
+            }
+          },
+          {
+            "InteractionName": "manuel_settings_action",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "auto_manuel_pb"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "manuel_settings_container"
+            }
+          },
+          {
+            "InteractionName": "pump_control_action",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "pump_Button"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "pump_control_slider"
+            }
+          },
+          {
+            "InteractionName": "fun_control_action",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "fun_Button"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "fun_control_slider"
+            }
+          },
+          {
+            "InteractionName": "hum_Slider_action",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "humidity_slider"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "hum_funct"
+            }
+          },
+          {
+            "InteractionName": "co2_Slider_action",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "CO2_slider"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "co2_func"
+            }
+          },
+          {
+            "InteractionName": "fun_Slider_action",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "fun_slider"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fun_func"
+            }
+          },
+          {
+            "InteractionName": "pump_Slider_action",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "water_pump_slider"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "pump_func"
+            }
+          },
+          {
+            "InteractionName": "manuelPumpSliderchange",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "pump_control_slider"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "pump_manuel_func"
+            }
+          },
+          {
+            "InteractionName": "manuelFunSliderChange",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "fun_control_slider"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fun_manuel_func"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Status",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScrollableContainer",
+            "Name": "status_Cont",
+            "Width": 480,
+            "Height": 272,
+            "HorizontalScrollEnabled": true,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisibleOnPressed": true,
+            "ScrollbarsAlpha": 255,
+            "Components": [
+              {
+                "Type": "ScalableImage",
+                "Name": "page_bg",
+                "Width": 480,
+                "Height": 690,
+                "Filename": "graph_bg.png",
+                "ScalingAlgorithm": "Nearest-neighbor"
+              },
+              {
+                "Type": "Container",
+                "Name": "CO2_cont",
+                "X": 18,
+                "Y": 415,
+                "Width": 441,
+                "Height": 264,
+                "Components": [
+                  {
+                    "Type": "BoxWithBorder",
+                    "Name": "co2_bg",
+                    "X": 5,
+                    "Y": 43,
+                    "Width": 389,
+                    "Height": 224,
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "BorderSize": 1
+                  },
+                  {
+                    "Type": "DynamicGraph",
+                    "Name": "co2_graph",
+                    "X": 5,
+                    "Y": 43,
+                    "Width": 389,
+                    "Height": 224,
+                    "DataSeed": 2033243268,
+                    "NumberOfValues": 100,
+                    "MaxY": 100.0,
+                    "Precision": "1",
+                    "UseCustomVisibleDataPointRange": true,
+                    "LastIndex": 100,
+                    "XAxisScale": 1.0,
+                    "LabelSizeTop": 10,
+                    "LabelSizeBottom": 22,
+                    "LabelSizeLeft": 28,
+                    "LabelSizeRight": 19,
+                    "PaddingTop": 2,
+                    "PaddingBottom": 6,
+                    "PaddingLeft": 6,
+                    "GraphType": "GraphWrapClear",
+                    "GraphDrawers": [
+                      {
+                        "Type": "LineDrawer",
+                        "LineWidth": 2,
+                        "FileNameImage": "",
+                        "Color": {
+                          "Red": 20,
+                          "Green": 151,
+                          "Blue": 197
+                        }
+                      }
+                    ],
+                    "YAxisGrid": {
+                      "Type": "GraphGrid",
+                      "Color": {
+                        "Red": 20,
+                        "Green": 151,
+                        "Blue": 197
+                      },
+                      "Interval": 20.0,
+                      "LineWidth": 1
+                    },
+                    "XAxisLabel": {
+                      "Type": "GraphLabel",
+                      "Interval": 20.0,
+                      "DecimalSeparator": "Point",
+                      "TextId": "__SingleUse_STUE",
+                      "TextRotation": "0",
+                      "Position": "Bottom"
+                    },
+                    "YAxisLabel": {
+                      "Type": "GraphLabel",
+                      "Interval": 20.0,
+                      "DecimalSeparator": "Point",
+                      "TextId": "__SingleUse_0ZFD",
+                      "TextRotation": "0",
+                      "Position": "Left"
+                    }
+                  },
+                  {
+                    "Type": "Slider",
+                    "Name": "co2_slider",
+                    "X": 407,
+                    "Y": 66,
+                    "Width": 34,
+                    "Height": 179,
+                    "BackgroundUnselected": "Blue_Slider_Vertical_Small_Slider3_Vertical_Round_back.png",
+                    "BackgroundSelected": "Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fill.png",
+                    "Indicator": "Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 7,
+                    "BackgroundY": 3,
+                    "IndicatorMax": 125,
+                    "ValueMax": 100,
+                    "InitValue": 50
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "co2_title",
+                    "X": 16,
+                    "Y": 13,
+                    "Width": 83,
+                    "Height": 18,
+                    "TextId": "__SingleUse_XTAW",
+                    "TextRotation": "0",
+                    "AutoSize": true
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "humd_cont",
+                "Y": 70,
+                "Width": 480,
+                "Height": 307,
+                "Components": [
+                  {
+                    "Type": "BoxWithBorder",
+                    "Name": "humdit_bg",
+                    "X": 15,
+                    "Y": 58,
+                    "Width": 389,
+                    "Height": 224,
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "BorderSize": 1
+                  },
+                  {
+                    "Type": "DynamicGraph",
+                    "Name": "humd_graph",
+                    "X": 17,
+                    "Y": 64,
+                    "Width": 389,
+                    "Height": 224,
+                    "DataSeed": 2033243268,
+                    "NumberOfValues": 100,
+                    "MaxY": 100.0,
+                    "Precision": "1",
+                    "UseCustomVisibleDataPointRange": true,
+                    "LastIndex": 100,
+                    "XAxisScale": 1.0,
+                    "LabelSizeTop": 10,
+                    "LabelSizeBottom": 22,
+                    "LabelSizeLeft": 28,
+                    "LabelSizeRight": 19,
+                    "PaddingTop": 2,
+                    "PaddingBottom": 6,
+                    "PaddingLeft": 6,
+                    "GraphType": "GraphWrapOverwrite",
+                    "GraphDrawers": [
+                      {
+                        "Type": "LineDrawer",
+                        "LineWidth": 2,
+                        "FileNameImage": "",
+                        "Color": {
+                          "Red": 20,
+                          "Green": 151,
+                          "Blue": 197
+                        }
+                      }
+                    ],
+                    "YAxisGrid": {
+                      "Type": "GraphGrid",
+                      "Color": {
+                        "Red": 20,
+                        "Green": 151,
+                        "Blue": 197
+                      },
+                      "Interval": 20.0,
+                      "LineWidth": 1
+                    },
+                    "XAxisLabel": {
+                      "Type": "GraphLabel",
+                      "Interval": 20.0,
+                      "DecimalSeparator": "Point",
+                      "TextId": "__SingleUse_8XT4",
+                      "TextRotation": "0",
+                      "Position": "Bottom"
+                    },
+                    "YAxisLabel": {
+                      "Type": "GraphLabel",
+                      "Interval": 20.0,
+                      "DecimalSeparator": "Point",
+                      "TextId": "__SingleUse_26OJ",
+                      "TextRotation": "0",
+                      "Position": "Left"
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "hum_graph_title",
+                    "X": 23,
+                    "Y": 27,
+                    "Width": 128,
+                    "Height": 18,
+                    "TextId": "__SingleUse_GMX6",
+                    "TextRotation": "0",
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textArea1",
+                    "X": 273,
+                    "Y": 38,
+                    "Width": 120,
+                    "Height": 13,
+                    "TextId": "__SingleUse_8RLC",
+                    "TextRotation": "0",
+                    "AutoSize": true,
+                    "Wildcard1": {}
+                  },
+                  {
+                    "Type": "Slider",
+                    "Name": "hum_slider",
+                    "X": 425,
+                    "Y": 95,
+                    "Width": 34,
+                    "Height": 179,
+                    "BackgroundUnselected": "Blue_Slider_Vertical_Small_Slider3_Vertical_Round_back.png",
+                    "BackgroundSelected": "Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fill.png",
+                    "Indicator": "Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 7,
+                    "BackgroundY": 3,
+                    "IndicatorMax": 125,
+                    "ValueMax": 100,
+                    "InitValue": 50
+                  }
+                ]
+              },
+              {
+                "Type": "TextArea",
+                "Name": "monotoring_page",
+                "X": 128,
+                "Y": 8,
+                "Width": 225,
+                "Height": 48,
+                "TextId": "__SingleUse_T0E1",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 19,
+                  "Green": 41,
+                  "Blue": 209
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "FlexButton",
+                "Name": "back_pb",
+                "X": 18,
+                "Y": 16,
+                "Width": 33,
+                "Height": 33,
+                "ButtonTrigger": {
+                  "Type": "ClickButtonTrigger"
+                },
+                "ButtonStyles": [
+                  {
+                    "Type": "ImageButtonStyle",
+                    "ImageReleased": "undo.png",
+                    "ImagePressed": "undo.png"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "back_action",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "back_pb"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Home"
+            }
+          },
+          {
+            "InteractionName": "sliderValueChanged",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "hum_slider"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "sliderValueChanged"
+            }
+          },
+          {
+            "InteractionName": "co2sliderchange",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "co2_slider"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "co2sliderchange"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "About",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "page_bg",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "__generated\\light_theme_images_backgrounds_480x272_subtle_shift.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "back_pb",
+            "X": 18,
+            "Y": 16,
+            "Width": 33,
+            "Height": 33,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "undo.png",
+                "ImagePressed": "undo.png"
+              }
+            ]
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "QR_code",
+            "X": 378,
+            "Y": 169,
+            "Width": 84,
+            "Height": 91,
+            "Filename": "QRcode.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 10,
+            "Y": 91,
+            "Width": 324,
+            "Height": 17,
+            "TextId": "__SingleUse_3491",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 9,
+            "Y": 118,
+            "Width": 213,
+            "Height": 24,
+            "TextId": "__SingleUse_M1OB",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 38,
+              "Green": 45,
+              "Blue": 140
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea4",
+            "X": 223,
+            "Y": 124,
+            "Width": 259,
+            "Height": 17,
+            "TextId": "__SingleUse_WX0P",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5",
+            "X": 159,
+            "Y": 211,
+            "Width": 155,
+            "Height": 23,
+            "TextId": "__SingleUse_IV6S",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea6",
+            "X": 19,
+            "Y": 215,
+            "Width": 111,
+            "Height": 17,
+            "TextId": "__SingleUse_CINA",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "page_title",
+            "X": 175,
+            "Y": 11,
+            "Width": 131,
+            "Height": 48,
+            "TextId": "__SingleUse_T4OS",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 19,
+              "Green": 41,
+              "Blue": 209
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "back_action",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "back_pb"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Home"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Alert",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "page_bg",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "__generated\\light_theme_images_backgrounds_480x272_subtle_shift.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "back_pb",
+            "X": 18,
+            "Y": 16,
+            "Width": 33,
+            "Height": 33,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "undo.png",
+                "ImagePressed": "undo.png"
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "alert_page",
+            "X": 193,
+            "Y": 12,
+            "Width": 95,
+            "Height": 48,
+            "TextId": "__SingleUse_EJPZ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 19,
+              "Green": 41,
+              "Blue": 209
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 108,
+            "Y": 124,
+            "Width": 268,
+            "Height": 40,
+            "TextId": "__SingleUse_2YAA",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "back_action",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "back_pb"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Home"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "standby",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "page_bg",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "__generated\\light_theme_images_backgrounds_480x272_subtle_shift.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "page_title",
+            "X": 182,
+            "Y": 40,
+            "Width": 88,
+            "Height": 18,
+            "TextId": "__SingleUse_4T6Z",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 19,
+              "Green": 41,
+              "Blue": 209
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 233,
+            "Y": 209,
+            "Width": 143,
+            "Height": 18,
+            "TextId": "__SingleUse_ISKJ",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "Power_on",
+            "X": 424,
+            "Y": 220,
+            "Width": 35,
+            "Height": 34,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "power-button.png",
+                "ImagePressed": "power-button.png"
+              }
+            ]
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "FSM_logo",
+            "X": 384,
+            "Y": 8,
+            "Width": 80,
+            "Height": 80,
+            "Filename": "FSM.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "universityof_monastir_logo",
+            "X": 7,
+            "Y": 8,
+            "Width": 80,
+            "Height": 88,
+            "Filename": "monastir_logo.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "project_title",
+            "X": 148,
+            "Y": 124,
+            "Width": 184,
+            "Height": 40,
+            "TextId": "__SingleUse_TH8H",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 4,
+              "Green": 65,
+              "Blue": 189
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "power_on_action",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Power_on"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Start_on_animation"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "tpe",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 24,
+    "StartupScreenName": "Start_on_animation",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      24
+    ],
+    "AvailableLCDs": {
+      "24": "LCD24bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD24bpp": {
+        "Id": "LCD24bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "FlashTargetIntCommandOverride": "make -f ../gcc/Makefile intflash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32H7",
+    "SubFamily": "STM32H7A3/7B3",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../STM32H7B3I-DK.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.24.2",
+  "CreatedBy": "4.23.2"
+}

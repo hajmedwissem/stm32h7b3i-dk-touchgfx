@@ -1,0 +1,7 @@
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:86:43:const touchgfx::TypedText::TypedTextData* TypedTextDatabase::getInstance(touchgfx::LanguageId)	1
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:91:10:uint16_t TypedTextDatabase::getInstanceSize()	1
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:96:24:const touchgfx::Font** TypedTextDatabase::getFonts()	1
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:101:23:const touchgfx::Font* TypedTextDatabase::setFont(touchgfx::FontId, const touchgfx::Font*)	1
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:108:6:void TypedTextDatabase::resetFont(touchgfx::FontId)	12
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:147:1:void __static_initialization_and_destruction_0(int, int)	3
+C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:147:1:cpp)	1

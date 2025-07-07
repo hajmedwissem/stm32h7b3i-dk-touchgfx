@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/status_screen/StatusPresenter.hpp:28:13:StatusPresenter::~StatusPresenter()	0	static
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/status_screen/StatusPresenter.cpp:10:6:virtual void StatusPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/status_screen/StatusPresenter.hpp:28:13:virtual StatusPresenter::~StatusPresenter()	8	static
+../../TouchGFX/gui/include/gui/status_screen/StatusPresenter.hpp:28:13:virtual void* StatusPresenter::_ZThn4_N15StatusPresenterD1Ev()	0	static
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/status_screen/StatusPresenter.cpp:4:1:StatusPresenter::StatusPresenter(StatusView&)	0	static

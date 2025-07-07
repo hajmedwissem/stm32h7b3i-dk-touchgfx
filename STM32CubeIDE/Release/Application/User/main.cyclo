@@ -1,0 +1,5 @@
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Core/Src/main.c:763:6:StartDefaultTask	1
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Core/Src/main.c:232:6:SystemClock_Config	2
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Core/Src/main.c:122:5:main	5
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Core/Src/main.c:837:6:HAL_TIM_PeriodElapsedCallback	2
+C:/Users/wisse/Desktop/tpe/tpe_09_04/Core/Src/main.c:854:6:Error_Handler	1

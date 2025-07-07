@@ -1,0 +1,18 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/settings_screen/settingsView.cpp:24:6:virtual void settingsView::tearDownScreen()	1
+../../TouchGFX/gui/include/gui/settings_screen/settingsView.hpp:11:13:settingsView::~settingsView()	1
+../../TouchGFX/gui/include/gui/settings_screen/settingsView.hpp:11:13:virtual settingsView::~settingsView()	1
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/settings_screen/settingsView.cpp:3:1:settingsView::settingsView()	1
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/settings_screen/settingsView.cpp:8:6:virtual void settingsView::setupScreen()	1
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/settings_screen/settingsView.cpp:30:6:virtual void settingsView::hum_funct(int)	1
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/settings_screen/settingsView.cpp:38:6:virtual void settingsView::co2_func(int)	1
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/settings_screen/settingsView.cpp:46:6:virtual void settingsView::fun_manuel_func(int)	1
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/settings_screen/settingsView.cpp:53:6:virtual void settingsView::pump_manuel_func(int)	1
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/settings_screen/settingsView.cpp:60:6:void settingsView::set_humidty_threshold(uint8_t)	1
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/settings_screen/settingsView.cpp:71:6:void settingsView::set_co2_threshold(uint8_t)	1
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/settings_screen/settingsView.cpp:105:6:void settingsView::start_auto_settings()	1
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/settings_screen/settingsView.cpp:83:6:void settingsView::set_fun_speed_value(uint8_t)	1
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/settings_screen/settingsView.cpp:94:6:void settingsView::set_pump_speed_value(uint8_t)	1
+C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/settings_screen/settingsView.cpp:148:6:void settingsView::start_manuel_settings()	1

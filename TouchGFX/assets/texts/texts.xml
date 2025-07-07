@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.25.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1">
+      <Text Id="on_off" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">New Text</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_JVRD" Alignment="Left" TypographyId="conter">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_IVJU" Alignment="Center" TypographyId="conter">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_SUBR" Alignment="Left" TypographyId="conter">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_84XL" Alignment="Center" TypographyId="conter">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_G56W" Alignment="Left" TypographyId="conter">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_B8M7" Alignment="Center" TypographyId="conter">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_K2BQ" Alignment="Left" TypographyId="conter">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZQAJ" Alignment="Center" TypographyId="conter">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_2YAA" Alignment="Center" TypographyId="Typography_06">
+        <Translation Language="GB">Comming soon...</Translation>
+      </Text>
+      <Text Id="__SingleUse_TH8H" Alignment="Center" TypographyId="Typography_05">
+        <Translation Language="GB">NaturoDrop</Translation>
+      </Text>
+      <Text Id="__SingleUse_CINA" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">Supervised by :</Translation>
+      </Text>
+      <Text Id="__SingleUse_IV6S" Alignment="Left" TypographyId="Typography_04">
+        <Translation Language="GB">Nejmeddine Bahri</Translation>
+      </Text>
+      <Text Id="__SingleUse_WX0P" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">to increase the production of plants.</Translation>
+      </Text>
+      <Text Id="__SingleUse_M1OB" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">Faculty of Sciences of Monastir</Translation>
+      </Text>
+      <Text Id="__SingleUse_3491" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">This project is a part of end of year project in</Translation>
+      </Text>
+      <Text Id="__SingleUse_EKCY" Alignment="Left" TypographyId="Typography_01">
+        <Translation Language="GB">auto settings</Translation>
+      </Text>
+      <Text Id="__SingleUse_EY1U" Alignment="Left" TypographyId="Typography_01">
+        <Translation Language="GB">manuel settings</Translation>
+      </Text>
+      <Text Id="__SingleUse_C8HC" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">fun control:</Translation>
+      </Text>
+      <Text Id="__SingleUse_JO1F" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">pump control:</Translation>
+      </Text>
+      <Text Id="__SingleUse_W7GQ" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">CO2 threshold</Translation>
+      </Text>
+      <Text Id="__SingleUse_O4WV" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">humidity threshold</Translation>
+      </Text>
+      <Text Id="__SingleUse_3NZG" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">auto</Translation>
+      </Text>
+      <Text Id="__SingleUse_YBK6" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">manuel</Translation>
+      </Text>
+      <Text Id="__SingleUse_Z4I5" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">settings</Translation>
+      </Text>
+      <Text Id="__SingleUse_XTAW" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">CO2 Graph</Translation>
+      </Text>
+      <Text Id="__SingleUse_0ZFD" Alignment="Right" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_STUE" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_8RLC" Alignment="Left" TypographyId="on_off_staute">
+        <Translation Language="GB">water pump statue : &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_GMX6" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Humidity graph :</Translation>
+      </Text>
+      <Text Id="__SingleUse_T0E1" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">Monotoring</Translation>
+      </Text>
+      <Text Id="__SingleUse_26OJ" Alignment="Right" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_8XT4" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_36TX" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">HOME</Translation>
+      </Text>
+      <Text Id="__SingleUse_ISKJ" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">By Ones Chebaane</Translation>
+      </Text>
+      <Text Id="__SingleUse_4T6Z" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Mini Project</Translation>
+      </Text>
+      <Text Id="__SingleUse_EJPZ" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">Alert</Translation>
+      </Text>
+      <Text Id="__SingleUse_T4OS" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">About </Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="15" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="15" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="-., 0123456789" />
+    <Typography Id="Typography_00" Font="verdana.ttf" Size="23" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="on_off_staute" Font="verdana.ttf" Size="11" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="a-z" />
+    <Typography Id="Typography_01" Font="verdana.ttf" Size="17" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_02" Font="AGENCYB.TTF" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_03" Font="verdana.ttf" Size="14" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_04" Font="comicz.ttf" Size="18" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_05" Font="malgunbd.ttf" Size="32" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_06" Font="ARLRDBD.TTF" Size="33" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="conter" Font="ariblk.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+  </Typographies>
+</TextDatabase>
