@@ -13,3 +13,5 @@ The project offers two modes of operation:
 It also monitors humidity and dangerous gases in real time, providing a simple and easy-to-read graph.
 
 All user configuration changes are saved in flash memory, allowing the system to restore settings automatically when the project restarts.
+
+See also the videos and pictures in video&picteurs to get real-world test results of the project
