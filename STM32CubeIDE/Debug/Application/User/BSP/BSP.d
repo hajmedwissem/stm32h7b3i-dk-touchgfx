@@ -1,5 +1,5 @@
 Application/User/BSP/BSP.o: \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/BSP.c \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/BSP.c \
  ../../Core/Inc/main.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../Core/Inc/stm32h7xx_hal_conf.h \
@@ -43,10 +43,10 @@ Application/User/BSP/BSP.o: \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/BSP.h \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/hum_manager/hum_manager.h \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/co2_sensor_mangement/co2_sensor_mangement.h \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/water_pump_mangement/water_pimp_mangement.h
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/BSP.h \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/hum_manager/hum_manager.h \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/co2_sensor_mangement/co2_sensor_mangement.h \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/water_pump_mangement/water_pimp_mangement.h
 ../../Core/Inc/main.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../Core/Inc/stm32h7xx_hal_conf.h:
@@ -90,7 +90,7 @@ Application/User/BSP/BSP.o: \
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/BSP.h:
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/hum_manager/hum_manager.h:
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/co2_sensor_mangement/co2_sensor_mangement.h:
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/water_pump_mangement/water_pimp_mangement.h:
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/BSP.h:
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/hum_manager/hum_manager.h:
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/co2_sensor_mangement/co2_sensor_mangement.h:
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/water_pump_mangement/water_pimp_mangement.h:

@@ -37,6 +37,8 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:115:17:static touchgfx::HAL* touchgfx::HAL::getInstance()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:308:17:static touchgfx::LCD& touchgfx::HAL::lcd()	3
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:1181:10:touchgfx::LCD* touchgfx::HAL::getAuxiliaryLCD()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:40:7:touchgfx::Container::~Container()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:40:7:virtual touchgfx::Container::~Container()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:46:13:touchgfx::Screen::~Screen()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:46:13:virtual touchgfx::Screen::~Screen()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:93:18:virtual void touchgfx::Screen::setupScreen()	1
@@ -77,8 +79,6 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:79:10:void touchgfx::TextAreaWithOneWildcard::setWildcard1(const touchgfx::Unicode::UnicodeChar*)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:84:41:virtual const touchgfx::Unicode::UnicodeChar* touchgfx::TextAreaWithOneWildcard::getWildcard1() const	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:98:10:void touchgfx::TextAreaWithOneWildcard::setWildcard(const touchgfx::Unicode::UnicodeChar*)	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:40:7:touchgfx::Container::~Container()	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:40:7:virtual touchgfx::Container::~Container()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/AbstractButtonContainer.hpp:37:5:touchgfx::AbstractButtonContainer::AbstractButtonContainer()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/AbstractButtonContainer.hpp:51:10:void touchgfx::AbstractButtonContainer::setPressed(bool)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/AbstractButtonContainer.hpp:64:10:bool touchgfx::AbstractButtonContainer::getPressed() const	1
@@ -127,67 +127,67 @@
 ../../TouchGFX/generated/gui_generated/include/gui_generated/settings_screen/settingsViewBase.hpp:50:26:FrontendApplication& settingsViewBase::application()	1
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<settingsPresenter>::~View()	1
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:virtual touchgfx::View<settingsPresenter>::~View()	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:31:7:touchgfx::Button::~Button()	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:31:7:virtual touchgfx::Button::~Button()	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp:32:7:touchgfx::ToggleButton::ToggleButton()	1
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:15:1:settingsViewBase::settingsViewBase()	1
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:200:1:settingsViewBase::~settingsViewBase()	1
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:200:1:virtual settingsViewBase::~settingsViewBase()	1
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:205:6:virtual void settingsViewBase::setupScreen()	1
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:210:6:void settingsViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	2
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:221:6:void settingsViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	5
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:252:6:void settingsViewBase::sliderValueChangedCallbackHandler(const touchgfx::Slider&, int)	5
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:291:6:void settingsViewBase::display_manuel_setting(bool)	1
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:307:6:void settingsViewBase::display_auto_setting(bool)	1
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:312:6:void settingsViewBase::display_pump_settings(bool)	1
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:316:6:void settingsViewBase::display_fun_settings(bool)	1
-../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:39:5:touchgfx::View<T>::View() [with T = settingsPresenter]	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:35:7:touchgfx::ClickButtonTrigger::ClickButtonTrigger()	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:35:7:touchgfx::ClickButtonTrigger::~ClickButtonTrigger()	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:35:7:virtual touchgfx::ClickButtonTrigger::~ClickButtonTrigger()	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:48:5:touchgfx::ImageButtonStyle<T>::ImageButtonStyle() [with T = touchgfx::ClickButtonTrigger]	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:134:7:constexpr touchgfx::GenericCallback<const touchgfx::AbstractButtonContainer&>::GenericCallback()	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:373:5:touchgfx::Callback<dest_type, T1, void, void>::Callback(dest_type*, void (dest_type::*)(T1)) [with dest_type = settingsViewBase; T1 = const touchgfx::AbstractButtonContainer&]	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:134:7:constexpr touchgfx::GenericCallback<const touchgfx::AbstractButton&>::GenericCallback()	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:373:5:touchgfx::Callback<dest_type, T1, void, void>::Callback(dest_type*, void (dest_type::*)(T1)) [with dest_type = settingsViewBase; T1 = const touchgfx::AbstractButton&]	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:90:7:constexpr touchgfx::GenericCallback<const touchgfx::Slider&, int>::GenericCallback()	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:306:5:touchgfx::Callback<dest_type, T1, T2, void>::Callback(dest_type*, void (dest_type::*)(T1, T2)) [with dest_type = settingsViewBase; T1 = const touchgfx::Slider&; T2 = int]	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:61:18:void touchgfx::ImageButtonStyle<T>::setBitmaps(const touchgfx::Bitmap&, const touchgfx::Bitmap&) [with T = touchgfx::ClickButtonTrigger]	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:76:10:void touchgfx::ImageButtonStyle<T>::setBitmapXY(uint16_t, uint16_t) [with T = touchgfx::ClickButtonTrigger]	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp:95:10:void touchgfx::Line::setStart(T, T) [with T = float]	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp:171:10:void touchgfx::Line::setEnd(T, T) [with T = float]	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp:248:10:void touchgfx::Line::setLineWidth(T) [with T = int]	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:138:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::AbstractButtonContainer&]	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:138:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::AbstractButtonContainer&]	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:138:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::AbstractButton&]	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:138:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::AbstractButton&]	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:94:13:touchgfx::GenericCallback<T1, T2, void>::~GenericCallback() [with T1 = const touchgfx::Slider&; T2 = int]	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:94:13:touchgfx::GenericCallback<T1, T2, void>::~GenericCallback() [with T1 = const touchgfx::Slider&; T2 = int]	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:97:18:void touchgfx::ImageButtonStyle<T>::handlePressedUpdated() [with T = touchgfx::ClickButtonTrigger]	2
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:touchgfx::Callback<settingsViewBase, const touchgfx::Slider&, int>::~Callback()	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:virtual touchgfx::Callback<settingsViewBase, const touchgfx::Slider&, int>::~Callback()	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<settingsViewBase, const touchgfx::AbstractButton&>::~Callback()	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<settingsViewBase, const touchgfx::AbstractButton&>::~Callback()	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<settingsViewBase, const touchgfx::AbstractButtonContainer&>::~Callback()	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<settingsViewBase, const touchgfx::AbstractButtonContainer&>::~Callback()	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:45:7:touchgfx::ImageButtonStyle<touchgfx::ClickButtonTrigger>::~ImageButtonStyle()	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:45:7:virtual touchgfx::ImageButtonStyle<touchgfx::ClickButtonTrigger>::~ImageButtonStyle()	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:62:7:touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:62:7:virtual touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ScrollableContainer.hpp:46:7:touchgfx::ScrollableContainer::~ScrollableContainer()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ScrollableContainer.hpp:46:7:virtual touchgfx::ScrollableContainer::~ScrollableContainer()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ScalableImage.hpp:35:7:touchgfx::ScalableImage::~ScalableImage()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ScalableImage.hpp:35:7:virtual touchgfx::ScalableImage::~ScalableImage()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Slider.hpp:40:7:touchgfx::Slider::~Slider()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Slider.hpp:40:7:virtual touchgfx::Slider::~Slider()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:62:7:touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:62:7:virtual touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:35:7:touchgfx::ClickButtonTrigger::~ClickButtonTrigger()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:35:7:virtual touchgfx::ClickButtonTrigger::~ClickButtonTrigger()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:45:7:touchgfx::ImageButtonStyle<touchgfx::ClickButtonTrigger>::~ImageButtonStyle()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:45:7:virtual touchgfx::ImageButtonStyle<touchgfx::ClickButtonTrigger>::~ImageButtonStyle()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidget.hpp:33:7:touchgfx::CanvasWidget::~CanvasWidget()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidget.hpp:33:7:virtual touchgfx::CanvasWidget::~CanvasWidget()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp:50:7:touchgfx::Line::~Line()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp:50:7:virtual touchgfx::Line::~Line()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB888.hpp:34:7:touchgfx::PainterRGB888::~PainterRGB888()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB888.hpp:34:7:virtual touchgfx::PainterRGB888::~PainterRGB888()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:31:7:touchgfx::Button::~Button()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:31:7:virtual touchgfx::Button::~Button()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp:32:7:touchgfx::ToggleButton::ToggleButton()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp:32:7:touchgfx::ToggleButton::~ToggleButton()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp:32:7:virtual touchgfx::ToggleButton::~ToggleButton()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<settingsViewBase, const touchgfx::AbstractButtonContainer&>::~Callback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<settingsViewBase, const touchgfx::AbstractButtonContainer&>::~Callback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<settingsViewBase, const touchgfx::AbstractButton&>::~Callback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<settingsViewBase, const touchgfx::AbstractButton&>::~Callback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:touchgfx::Callback<settingsViewBase, const touchgfx::Slider&, int>::~Callback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:virtual touchgfx::Callback<settingsViewBase, const touchgfx::Slider&, int>::~Callback()	1
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:15:1:settingsViewBase::settingsViewBase()	1
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:200:1:settingsViewBase::~settingsViewBase()	1
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:200:1:virtual settingsViewBase::~settingsViewBase()	1
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:205:6:virtual void settingsViewBase::setupScreen()	1
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:210:6:void settingsViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	2
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:221:6:void settingsViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	5
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:252:6:void settingsViewBase::sliderValueChangedCallbackHandler(const touchgfx::Slider&, int)	5
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:291:6:void settingsViewBase::display_manuel_setting(bool)	1
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:307:6:void settingsViewBase::display_auto_setting(bool)	1
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:312:6:void settingsViewBase::display_pump_settings(bool)	1
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:316:6:void settingsViewBase::display_fun_settings(bool)	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:39:5:touchgfx::View<T>::View() [with T = settingsPresenter]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:35:7:touchgfx::ClickButtonTrigger::ClickButtonTrigger()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:48:5:touchgfx::ImageButtonStyle<T>::ImageButtonStyle() [with T = touchgfx::ClickButtonTrigger]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:134:7:constexpr touchgfx::GenericCallback<const touchgfx::AbstractButtonContainer&>::GenericCallback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:373:5:touchgfx::Callback<dest_type, T1, void, void>::Callback(dest_type*, void (dest_type::*)(T1)) [with dest_type = settingsViewBase; T1 = const touchgfx::AbstractButtonContainer&]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:138:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::AbstractButtonContainer&]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:138:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::AbstractButtonContainer&]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:134:7:constexpr touchgfx::GenericCallback<const touchgfx::AbstractButton&>::GenericCallback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:373:5:touchgfx::Callback<dest_type, T1, void, void>::Callback(dest_type*, void (dest_type::*)(T1)) [with dest_type = settingsViewBase; T1 = const touchgfx::AbstractButton&]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:138:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::AbstractButton&]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:138:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::AbstractButton&]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:90:7:constexpr touchgfx::GenericCallback<const touchgfx::Slider&, int>::GenericCallback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:306:5:touchgfx::Callback<dest_type, T1, T2, void>::Callback(dest_type*, void (dest_type::*)(T1, T2)) [with dest_type = settingsViewBase; T1 = const touchgfx::Slider&; T2 = int]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:94:13:touchgfx::GenericCallback<T1, T2, void>::~GenericCallback() [with T1 = const touchgfx::Slider&; T2 = int]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:94:13:touchgfx::GenericCallback<T1, T2, void>::~GenericCallback() [with T1 = const touchgfx::Slider&; T2 = int]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:61:18:void touchgfx::ImageButtonStyle<T>::setBitmaps(const touchgfx::Bitmap&, const touchgfx::Bitmap&) [with T = touchgfx::ClickButtonTrigger]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:76:10:void touchgfx::ImageButtonStyle<T>::setBitmapXY(uint16_t, uint16_t) [with T = touchgfx::ClickButtonTrigger]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp:95:10:void touchgfx::Line::setStart(T, T) [with T = float]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp:171:10:void touchgfx::Line::setEnd(T, T) [with T = float]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp:248:10:void touchgfx::Line::setLineWidth(T) [with T = int]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:97:18:void touchgfx::ImageButtonStyle<T>::handlePressedUpdated() [with T = touchgfx::ClickButtonTrigger]	2
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:318:18:void touchgfx::Callback<dest_type, T1, T2, void>::execute(T1, T2) [with dest_type = settingsViewBase; T1 = const touchgfx::Slider&; T2 = int]	2
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:328:18:bool touchgfx::Callback<dest_type, T1, T2, void>::isValid() const [with dest_type = settingsViewBase; T1 = const touchgfx::Slider&; T2 = int]	5
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = settingsViewBase; T1 = const touchgfx::AbstractButton&]	2

@@ -1,5 +1,5 @@
 Middlewares/FreeRTOS/port.o: \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

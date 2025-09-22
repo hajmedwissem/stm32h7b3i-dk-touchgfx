@@ -1,5 +1,5 @@
 Application/User/drivers/co2_drv/co2_sensor.o: \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/drivers/co2_drv/co2_sensor.c \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/co2_drv/co2_sensor.c \
  ../../Core/Inc/main.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../Core/Inc/stm32h7xx_hal_conf.h \
@@ -43,7 +43,7 @@ Application/User/drivers/co2_drv/co2_sensor.o: \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/drivers/co2_drv/co2_sensor.h
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/co2_drv/co2_sensor.h
 ../../Core/Inc/main.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../Core/Inc/stm32h7xx_hal_conf.h:
@@ -87,4 +87,4 @@ Application/User/drivers/co2_drv/co2_sensor.o: \
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/drivers/co2_drv/co2_sensor.h:
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/co2_drv/co2_sensor.h:

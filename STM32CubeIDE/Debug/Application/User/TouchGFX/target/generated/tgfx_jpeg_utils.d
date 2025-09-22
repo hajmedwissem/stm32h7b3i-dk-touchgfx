@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/generated/tgfx_jpeg_utils.o: \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/target/generated/tgfx_jpeg_utils.c \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/tgfx_jpeg_utils.c \
  ../../Utilities/JPEG/jpeg_utils.h ../../Core/Inc/jpeg_utils_conf.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../Core/Inc/stm32h7xx_hal_conf.h \

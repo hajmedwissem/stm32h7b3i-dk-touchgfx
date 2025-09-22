@@ -1,6 +1,6 @@
 Middlewares/FreeRTOS/cmsis_os2.o: \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
  ../../Drivers/CMSIS/Include/cmsis_compiler.h \
  ../../Drivers/CMSIS/Include/cmsis_gcc.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
@@ -17,8 +17,8 @@ Middlewares/FreeRTOS/cmsis_os2.o: \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_mpool.h \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_mpool.h \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h \
  ../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
  ../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7b3xxq.h \
  ../../Drivers/CMSIS/Include/core_cm7.h \
@@ -60,7 +60,7 @@ Middlewares/FreeRTOS/cmsis_os2.o: \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:
 ../../Drivers/CMSIS/Include/cmsis_compiler.h:
 ../../Drivers/CMSIS/Include/cmsis_gcc.h:
 ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
@@ -77,8 +77,8 @@ C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Middlewares/Third_Party
 ../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
 ../../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h:
 ../../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h:
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_mpool.h:
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h:
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_mpool.h:
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h:
 ../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h:
 ../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7b3xxq.h:
 ../../Drivers/CMSIS/Include/core_cm7.h:

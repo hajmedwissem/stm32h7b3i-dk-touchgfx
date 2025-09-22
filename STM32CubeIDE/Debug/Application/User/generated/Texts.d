@@ -1,5 +1,5 @@
 Application/User/generated/Texts.o: \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/texts/src/Texts.cpp \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/texts/src/Texts.cpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TextProvider.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Unicode.hpp \

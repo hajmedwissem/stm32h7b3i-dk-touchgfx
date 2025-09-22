@@ -24,6 +24,8 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:625:10:void touchgfx::Drawable::resetDrawChainCache()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:703:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	24	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:45:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	24	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:40:7:touchgfx::Container::~Container()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:40:7:virtual touchgfx::Container::~Container()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:46:13:touchgfx::Screen::~Screen()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:46:13:virtual touchgfx::Screen::~Screen()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:93:18:virtual void touchgfx::Screen::setupScreen()	16	static
@@ -46,25 +48,23 @@
 ../../TouchGFX/generated/gui_generated/include/gui_generated/start_on_animation_screen/Start_on_animationViewBase.hpp:31:26:FrontendApplication& Start_on_animationViewBase::application()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<Start_on_animationPresenter>::~View()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:virtual touchgfx::View<Start_on_animationPresenter>::~View()	16	static
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/start_on_animation_screen/Start_on_animationViewBase.cpp:8:1:Start_on_animationViewBase::Start_on_animationViewBase()	64	static
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/start_on_animation_screen/Start_on_animationViewBase.cpp:33:1:Start_on_animationViewBase::~Start_on_animationViewBase()	16	static
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/start_on_animation_screen/Start_on_animationViewBase.cpp:33:1:virtual Start_on_animationViewBase::~Start_on_animationViewBase()	16	static
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/start_on_animation_screen/Start_on_animationViewBase.cpp:38:6:virtual void Start_on_animationViewBase::setupScreen()	16	static
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/start_on_animation_screen/Start_on_animationViewBase.cpp:43:6:void Start_on_animationViewBase::animationEndedCallbackHandler(const touchgfx::AnimatedImage&)	16	static
-../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:39:5:touchgfx::View<T>::View() [with T = Start_on_animationPresenter]	16	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:134:7:constexpr touchgfx::GenericCallback<const touchgfx::AnimatedImage&>::GenericCallback()	16	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:373:5:touchgfx::Callback<dest_type, T1, void, void>::Callback(dest_type*, void (dest_type::*)(T1)) [with dest_type = Start_on_animationViewBase; T1 = const touchgfx::AnimatedImage&]	24	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:138:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::AnimatedImage&]	16	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:138:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::AnimatedImage&]	16	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<Start_on_animationViewBase, const touchgfx::AnimatedImage&>::~Callback()	16	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<Start_on_animationViewBase, const touchgfx::AnimatedImage&>::~Callback()	16	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:40:7:touchgfx::Container::~Container()	16	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:40:7:virtual touchgfx::Container::~Container()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:29:7:touchgfx::Box::~Box()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:29:7:virtual touchgfx::Box::~Box()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ScalableImage.hpp:35:7:touchgfx::ScalableImage::~ScalableImage()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ScalableImage.hpp:35:7:virtual touchgfx::ScalableImage::~ScalableImage()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AnimatedImage.hpp:33:7:touchgfx::AnimatedImage::~AnimatedImage()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AnimatedImage.hpp:33:7:virtual touchgfx::AnimatedImage::~AnimatedImage()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<Start_on_animationViewBase, const touchgfx::AnimatedImage&>::~Callback()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<Start_on_animationViewBase, const touchgfx::AnimatedImage&>::~Callback()	16	static
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/start_on_animation_screen/Start_on_animationViewBase.cpp:8:1:Start_on_animationViewBase::Start_on_animationViewBase()	64	static
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/start_on_animation_screen/Start_on_animationViewBase.cpp:33:1:Start_on_animationViewBase::~Start_on_animationViewBase()	16	static
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/start_on_animation_screen/Start_on_animationViewBase.cpp:33:1:virtual Start_on_animationViewBase::~Start_on_animationViewBase()	16	static
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/start_on_animation_screen/Start_on_animationViewBase.cpp:38:6:virtual void Start_on_animationViewBase::setupScreen()	16	static
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/start_on_animation_screen/Start_on_animationViewBase.cpp:43:6:void Start_on_animationViewBase::animationEndedCallbackHandler(const touchgfx::AnimatedImage&)	16	static
+../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:39:5:touchgfx::View<T>::View() [with T = Start_on_animationPresenter]	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:134:7:constexpr touchgfx::GenericCallback<const touchgfx::AnimatedImage&>::GenericCallback()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:373:5:touchgfx::Callback<dest_type, T1, void, void>::Callback(dest_type*, void (dest_type::*)(T1)) [with dest_type = Start_on_animationViewBase; T1 = const touchgfx::AnimatedImage&]	24	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:138:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::AnimatedImage&]	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:138:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::AnimatedImage&]	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = Start_on_animationViewBase; T1 = const touchgfx::AnimatedImage&]	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:396:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = Start_on_animationViewBase; T1 = const touchgfx::AnimatedImage&]	16	static

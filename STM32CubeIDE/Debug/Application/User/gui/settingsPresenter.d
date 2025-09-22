@@ -1,5 +1,5 @@
 Application/User/gui/settingsPresenter.o: \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/gui/src/settings_screen/settingsPresenter.cpp \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/settings_screen/settingsPresenter.cpp \
  ../../TouchGFX/gui/include/gui/settings_screen/settingsView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/settings_screen/settingsViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

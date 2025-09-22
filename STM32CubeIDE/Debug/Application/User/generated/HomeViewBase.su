@@ -30,6 +30,8 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:45:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	24	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:43:5:touchgfx::Container::Container()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:165:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:40:7:touchgfx::Container::~Container()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:40:7:virtual touchgfx::Container::~Container()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:46:13:touchgfx::Screen::~Screen()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:46:13:virtual touchgfx::Screen::~Screen()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:93:18:virtual void touchgfx::Screen::setupScreen()	16	static
@@ -45,8 +47,6 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:62:10:void touchgfx::Box::setColor(touchgfx::colortype)	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:50:5:touchgfx::Image::Image(const touchgfx::Bitmap&)	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:76:10:void touchgfx::Image::setAlpha(uint8_t)	16	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:40:7:touchgfx::Container::~Container()	16	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:40:7:virtual touchgfx::Container::~Container()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/AbstractButtonContainer.hpp:37:5:touchgfx::AbstractButtonContainer::AbstractButtonContainer()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/AbstractButtonContainer.hpp:51:10:void touchgfx::AbstractButtonContainer::setPressed(bool)	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/AbstractButtonContainer.hpp:64:10:bool touchgfx::AbstractButtonContainer::getPressed() const	16	static
@@ -72,29 +72,29 @@
 ../../TouchGFX/generated/gui_generated/include/gui_generated/home_screen/HomeViewBase.hpp:25:26:FrontendApplication& HomeViewBase::application()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<HomePresenter>::~View()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:virtual touchgfx::View<HomePresenter>::~View()	16	static
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:9:1:HomeViewBase::HomeViewBase()	168	static
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:71:1:HomeViewBase::~HomeViewBase()	16	static
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:71:1:virtual HomeViewBase::~HomeViewBase()	16	static
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:76:6:virtual void HomeViewBase::setupScreen()	16	static
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:81:6:void HomeViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	16	static
-../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:39:5:touchgfx::View<T>::View() [with T = HomePresenter]	16	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:35:7:touchgfx::ClickButtonTrigger::ClickButtonTrigger()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ScalableImage.hpp:35:7:touchgfx::ScalableImage::~ScalableImage()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ScalableImage.hpp:35:7:virtual touchgfx::ScalableImage::~ScalableImage()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:35:7:touchgfx::ClickButtonTrigger::~ClickButtonTrigger()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:35:7:virtual touchgfx::ClickButtonTrigger::~ClickButtonTrigger()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:45:7:touchgfx::ImageButtonStyle<touchgfx::ClickButtonTrigger>::~ImageButtonStyle()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:45:7:virtual touchgfx::ImageButtonStyle<touchgfx::ClickButtonTrigger>::~ImageButtonStyle()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<HomeViewBase, const touchgfx::AbstractButtonContainer&>::~Callback()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<HomeViewBase, const touchgfx::AbstractButtonContainer&>::~Callback()	16	static
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:9:1:HomeViewBase::HomeViewBase()	168	static
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:71:1:HomeViewBase::~HomeViewBase()	16	static
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:71:1:virtual HomeViewBase::~HomeViewBase()	16	static
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:76:6:virtual void HomeViewBase::setupScreen()	16	static
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:81:6:void HomeViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	16	static
+../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:39:5:touchgfx::View<T>::View() [with T = HomePresenter]	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:35:7:touchgfx::ClickButtonTrigger::ClickButtonTrigger()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:48:5:touchgfx::ImageButtonStyle<T>::ImageButtonStyle() [with T = touchgfx::ClickButtonTrigger]	32	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:134:7:constexpr touchgfx::GenericCallback<const touchgfx::AbstractButtonContainer&>::GenericCallback()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:373:5:touchgfx::Callback<dest_type, T1, void, void>::Callback(dest_type*, void (dest_type::*)(T1)) [with dest_type = HomeViewBase; T1 = const touchgfx::AbstractButtonContainer&]	24	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:138:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::AbstractButtonContainer&]	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:138:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::AbstractButtonContainer&]	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:61:18:void touchgfx::ImageButtonStyle<T>::setBitmaps(const touchgfx::Bitmap&, const touchgfx::Bitmap&) [with T = touchgfx::ClickButtonTrigger]	24	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:76:10:void touchgfx::ImageButtonStyle<T>::setBitmapXY(uint16_t, uint16_t) [with T = touchgfx::ClickButtonTrigger]	16	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:138:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::AbstractButtonContainer&]	16	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:138:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::AbstractButtonContainer&]	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:97:18:void touchgfx::ImageButtonStyle<T>::handlePressedUpdated() [with T = touchgfx::ClickButtonTrigger]	24	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<HomeViewBase, const touchgfx::AbstractButtonContainer&>::~Callback()	16	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<HomeViewBase, const touchgfx::AbstractButtonContainer&>::~Callback()	16	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:45:7:touchgfx::ImageButtonStyle<touchgfx::ClickButtonTrigger>::~ImageButtonStyle()	16	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:45:7:virtual touchgfx::ImageButtonStyle<touchgfx::ClickButtonTrigger>::~ImageButtonStyle()	16	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ScalableImage.hpp:35:7:touchgfx::ScalableImage::~ScalableImage()	16	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ScalableImage.hpp:35:7:virtual touchgfx::ScalableImage::~ScalableImage()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = HomeViewBase; T1 = const touchgfx::AbstractButtonContainer&]	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:396:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = HomeViewBase; T1 = const touchgfx::AbstractButtonContainer&]	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:104:18:void touchgfx::ImageButtonStyle<T>::handleAlphaUpdated() [with T = touchgfx::ClickButtonTrigger]	24	static

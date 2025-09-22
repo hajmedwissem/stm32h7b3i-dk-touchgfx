@@ -21,13 +21,15 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "stm32h7xx_it.h"
+#include <stdio.h>
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN TD */
-
+void HardFault_Handler_C(uint32_t *hardfault_args);
+static void print_reg(const char *name, uint32_t val);
 /* USER CODE END TD */
 
 /* Private define ------------------------------------------------------------*/
@@ -90,7 +92,14 @@ void NMI_Handler(void)
 void HardFault_Handler(void)
 {
   /* USER CODE BEGIN HardFault_IRQn 0 */
-
+	 __asm volatile
+	    (
+	        "TST lr, #4 \n"
+	        "ITE EQ \n"
+	        "MRSEQ r0, MSP \n"
+	        "MRSNE r0, PSP \n"
+	        "B HardFault_Handler_C \n"
+	    );
   /* USER CODE END HardFault_IRQn 0 */
   while (1)
   {
@@ -264,5 +273,52 @@ void MDMA_IRQHandler(void)
 }
 
 /* USER CODE BEGIN 1 */
+void HardFault_Handler_C(uint32_t *stacked_regs) {
+    // Registers stacked automatically on exception entry
+    volatile uint32_t r0  = stacked_regs[0];
+    volatile uint32_t r1  = stacked_regs[1];
+    volatile uint32_t r2  = stacked_regs[2];
+    volatile uint32_t r3  = stacked_regs[3];
+    volatile uint32_t r12 = stacked_regs[4];
+    volatile uint32_t lr  = stacked_regs[5];  // Link register
+    volatile uint32_t pc  = stacked_regs[6];  // Program counter at fault
+    volatile uint32_t psr = stacked_regs[7];  // Program status register
 
+
+    uint32_t cfsr = SCB->CFSR;
+    uint32_t hfsr = SCB->HFSR;
+    uint32_t mmfar = SCB->MMFAR;
+    uint32_t bfar  = SCB->BFAR;
+
+
+
+    print_reg("R0", r0);
+	print_reg("R1", r1);
+	print_reg("R2", r2);
+	print_reg("R3", r3);
+	print_reg("R12", r12);
+	print_reg("LR", lr);
+	print_reg("PC", pc);
+	print_reg("xPSR", psr);
+
+	/* Print SCB fault status */
+	print_reg("CFSR", cfsr);
+	print_reg("HFSR", hfsr);
+	print_reg("MMFAR", mmfar);
+	print_reg("BFAR", bfar);
+
+    if (cfsr & (1 << 0)) printf("MMF: Instruction access violation\r\n");
+	if (cfsr & (1 << 1)) printf("MMF: Data access violation\r\n");
+	if (cfsr & (1 << 3)) printf("BusFault: Precise data bus error\r\n");
+	if (cfsr & (1 << 4)) printf("BusFault: Imprecise data bus error\r\n");
+	if (cfsr & (1 << 16)) printf("UsageFault: Undefined instruction\r\n");
+	if (cfsr & (1 << 18)) printf("UsageFault: Division by zero\r\n");
+
+
+}
+
+static void print_reg(const char *name, uint32_t val)
+{
+    printf("%s = 0x%08lX\r\n", name, val);
+}
 /* USER CODE END 1 */

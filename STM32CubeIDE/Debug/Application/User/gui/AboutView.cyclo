@@ -4,6 +4,6 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
 ../../TouchGFX/gui/include/gui/about_screen/AboutView.hpp:11:13:AboutView::~AboutView()	1
 ../../TouchGFX/gui/include/gui/about_screen/AboutView.hpp:11:13:virtual AboutView::~AboutView()	1
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/gui/src/about_screen/AboutView.cpp:3:1:AboutView::AboutView()	1
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/gui/src/about_screen/AboutView.cpp:8:6:virtual void AboutView::setupScreen()	1
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/gui/src/about_screen/AboutView.cpp:13:6:virtual void AboutView::tearDownScreen()	1
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/about_screen/AboutView.cpp:3:1:AboutView::AboutView()	1
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/about_screen/AboutView.cpp:8:6:virtual void AboutView::setupScreen()	1
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/about_screen/AboutView.cpp:13:6:virtual void AboutView::tearDownScreen()	1

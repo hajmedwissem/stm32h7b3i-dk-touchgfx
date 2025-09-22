@@ -1,6 +1,6 @@
 Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.o: \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.c \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.h \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.c \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.h \
  ../../Core/Inc/stm32h7b3i_discovery_conf.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../Core/Inc/stm32h7xx_hal_conf.h \
@@ -44,10 +44,10 @@ Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.o: \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_errno.h \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Drivers/BSP/STM32H7B3I-DK/../Components/mx25lm51245g/mx25lm51245g.h \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_errno.h \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Drivers/BSP/STM32H7B3I-DK/../Components/mx25lm51245g/mx25lm51245g.h \
  ../../Core/Inc/mx25lm51245g_conf.h
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.h:
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.h:
 ../../Core/Inc/stm32h7b3i_discovery_conf.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../Core/Inc/stm32h7xx_hal_conf.h:
@@ -91,6 +91,6 @@ C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Drivers/BSP/STM32H7B3I-
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_errno.h:
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Drivers/BSP/STM32H7B3I-DK/../Components/mx25lm51245g/mx25lm51245g.h:
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_errno.h:
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Drivers/BSP/STM32H7B3I-DK/../Components/mx25lm51245g/mx25lm51245g.h:
 ../../Core/Inc/mx25lm51245g_conf.h:

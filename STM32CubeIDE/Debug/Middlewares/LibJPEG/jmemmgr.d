@@ -1,5 +1,5 @@
 Middlewares/LibJPEG/jmemmgr.o: \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c \
  ../../Middlewares/Third_Party/LibJPEG/include/jinclude.h \
  ../../LIBJPEG/Target/jconfig.h ../../LIBJPEG/Target/jdata_conf.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \

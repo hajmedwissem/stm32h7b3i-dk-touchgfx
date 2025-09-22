@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o: \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/target/generated/TouchGFXConfiguration.cpp \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXConfiguration.cpp \
  ../../TouchGFX/generated/texts/include/texts/TypedTextDatabase.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \

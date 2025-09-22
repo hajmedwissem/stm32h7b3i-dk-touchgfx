@@ -1,5 +1,5 @@
 Application/User/generated/StatusViewBase.o: \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/status_screen/StatusViewBase.cpp \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/status_screen/StatusViewBase.cpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/status_screen/StatusViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \

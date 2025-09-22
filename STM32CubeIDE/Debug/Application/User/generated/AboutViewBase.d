@@ -1,5 +1,5 @@
 Application/User/generated/AboutViewBase.o: \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/about_screen/AboutViewBase.cpp \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/about_screen/AboutViewBase.cpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/about_screen/AboutViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \

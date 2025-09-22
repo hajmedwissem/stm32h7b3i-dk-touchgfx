@@ -1,5 +1,5 @@
 Application/User/BSP/fun_mangement/fun_mangement.o: \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/fun_mangement/fun_mangement.c \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/fun_mangement/fun_mangement.c \
  ../../Core/Inc/main.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../Core/Inc/stm32h7xx_hal_conf.h \
@@ -43,9 +43,9 @@ Application/User/BSP/fun_mangement/fun_mangement.o: \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/fun_mangement/fun_mangement.h \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/fun_mangement/../../drivers/fun/fun.h \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/fun_mangement/../../settings/Settings.h
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/fun_mangement/fun_mangement.h \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/fun_mangement/../../drivers/fun/fun.h \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/fun_mangement/../../settings/Settings.h
 ../../Core/Inc/main.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../Core/Inc/stm32h7xx_hal_conf.h:
@@ -89,6 +89,6 @@ Application/User/BSP/fun_mangement/fun_mangement.o: \
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/fun_mangement/fun_mangement.h:
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/fun_mangement/../../drivers/fun/fun.h:
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Core/BSP/fun_mangement/../../settings/Settings.h:
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/fun_mangement/fun_mangement.h:
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/fun_mangement/../../drivers/fun/fun.h:
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/fun_mangement/../../settings/Settings.h:

@@ -1,6 +1,6 @@
 Drivers/BSP/Components/mx25lm51245g.o: \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.h \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.h \
  ../../Core/Inc/mx25lm51245g_conf.h \
  ../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
  ../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7b3xxq.h \
@@ -44,7 +44,7 @@ Drivers/BSP/Components/mx25lm51245g.o: \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
-C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.h:
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.h:
 ../../Core/Inc/mx25lm51245g_conf.h:
 ../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h:
 ../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7b3xxq.h:

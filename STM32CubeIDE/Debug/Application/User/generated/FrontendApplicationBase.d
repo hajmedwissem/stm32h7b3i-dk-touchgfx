@@ -1,5 +1,5 @@
 Application/User/generated/FrontendApplicationBase.o: \
- C:/Users/USER/Desktop/pfa_final/tpe_29_04V2/tpe_27_04_v2/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/common/AbstractPartition.hpp \
