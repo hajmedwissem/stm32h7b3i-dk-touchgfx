@@ -123,7 +123,7 @@ void pump_PWM_Start(void)
 
 
 
-static void pwm_out(uint16_t val){
+static __attribute__((section(".itcmram"))) void pwm_out(uint16_t val){
 
 	__HAL_TIM_SET_COMPARE(&htim8,TIM_CHANNEL_3,val);
 

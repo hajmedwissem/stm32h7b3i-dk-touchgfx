@@ -95,7 +95,7 @@ static void co2_task(void* parametre)
 
 
 
-static void add_co2_to_queue(float_t co2){
+static __attribute__((section(".itcmram"))) void add_co2_to_queue(float_t co2){
 	uint16_t index =0;
 
 	if(co2_queue.size < (co2_queue_max_size-1)){
@@ -112,7 +112,7 @@ static void add_co2_to_queue(float_t co2){
 }
 
 
-float_t get_co2_from_queue(void){
+float_t __attribute__((section(".itcmram"))) get_co2_from_queue(void){
 
 	float_t val = 0;
 

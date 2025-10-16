@@ -239,6 +239,14 @@ SECTIONS
     *(.gnu.linkonce.r.*)
     . = ALIGN(0x4);
   } >OSPI
+  
+  .itcmram :
+{
+    . = ALIGN(4);
+    *(.itcmram)
+    *(.itcmram.*)
+    . = ALIGN(4);
+} >ITCMRAM AT>FLASH
 
   Video_RGB_Buffer (NOLOAD) : { *(Video_RGB_Buffer) } >SDRAM
 }

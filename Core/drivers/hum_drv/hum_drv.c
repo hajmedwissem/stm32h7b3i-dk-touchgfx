@@ -113,7 +113,7 @@ void humidity_sensor_init(void)
 
 
 
-uint16_t read_humidity_sensor(void)
+__attribute__((section(".itcmram"))) uint16_t read_humidity_sensor(void)
 {
 
 	  HAL_ADC_Start(&hadc1);

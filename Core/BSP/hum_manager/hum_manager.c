@@ -95,7 +95,7 @@ static void humidity_task(void* parm)
 
 
 
-static void add_hum_to_queue(uint8_t hum){
+static __attribute__((section(".itcmram"))) void add_hum_to_queue(uint8_t hum){
 	uint8_t index =0;
 
 	if(hum_queue.size < (Hum_queue_max_size-1)){
@@ -112,7 +112,7 @@ static void add_hum_to_queue(uint8_t hum){
 }
 
 
-uint8_t get_humdity_from_queue(void){
+uint8_t __attribute__((section(".itcmram"))) get_humdity_from_queue(void){
 
 	uint8_t val = 0;
 

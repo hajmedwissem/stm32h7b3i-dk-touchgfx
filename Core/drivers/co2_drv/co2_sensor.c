@@ -82,7 +82,7 @@ void co2_sensor_init(void)
 
 
 
-uint16_t read_co2_sensor(void)
+__attribute__((section(".itcmram"))) uint16_t read_co2_sensor(void)
 {
 	HAL_ADC_Start(&hadc2);
 	HAL_ADC_PollForConversion(&hadc2, 10);

@@ -96,7 +96,7 @@ void fun_PWM_Start(void)
 
 
 
-static void fun_pwm_out(uint16_t val){
+static __attribute__((section(".itcmram"))) void fun_pwm_out(uint16_t val){
 
 	__HAL_TIM_SET_COMPARE(&htim12,TIM_CHANNEL_2,val);
 }
