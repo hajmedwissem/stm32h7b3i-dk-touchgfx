@@ -1,5 +1,5 @@
 Application/User/generated/CompressedFontCache.o: \
- C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/generated/fonts/src/CompressedFontCache.cpp \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/fonts/src/CompressedFontCache.cpp \
  ../../TouchGFX/generated/fonts/include/fonts/CompressedFontCache.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp \

@@ -1,5 +1,5 @@
 Middlewares/LibJPEG/jfdctfst.o: \
- C:/Users/wisse/Desktop/tpe/tpe_09_04/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c \
  ../../Middlewares/Third_Party/LibJPEG/include/jinclude.h \
  ../../LIBJPEG/Target/jconfig.h ../../LIBJPEG/Target/jdata_conf.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \

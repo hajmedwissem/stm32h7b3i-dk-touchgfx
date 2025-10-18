@@ -1,4 +1,4 @@
 Application/User/generated/image_power-button.o: \
- C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/generated/images/src/image_power-button.cpp \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/images/src/image_power-button.cpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp:

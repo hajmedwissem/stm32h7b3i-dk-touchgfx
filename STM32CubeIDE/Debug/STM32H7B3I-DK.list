@@ -65,9 +65,9 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  30 .debug_rnglists 000056a2  00000000  00000000  00a92acc  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 31 .debug_macro  00051206  00000000  00000000  00a9816e  2**0
+ 31 .debug_macro  00051208  00000000  00000000  00a9816e  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 32 .comment      000000c2  00000000  00000000  00ae9374  2**0
+ 32 .comment      000000c2  00000000  00000000  00ae9376  2**0
                   CONTENTS, READONLY
  33 .debug_frame  0001fcd0  00000000  00000000  00ae9438  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
@@ -16582,7 +16582,7 @@ void pump_in_maneul_mode(void){
 0800694c <vApplicationIdleHook>:
 void vApplicationStackOverflowHook(xTaskHandle xTask, signed char *pcTaskName);
 void vApplicationMallocFailedHook(void);
-
+#endif
 /* USER CODE BEGIN 2 */
 void vApplicationIdleHook(void)
 {
@@ -16604,7 +16604,7 @@ void vApplicationIdleHook(void)
 
 08006960 <vApplicationStackOverflowHook>:
 /* USER CODE END 2 */
-
+#ifdef DEBUG
 /* USER CODE BEGIN 4 */
 void vApplicationStackOverflowHook(xTaskHandle xTask, signed char *pcTaskName)
 {

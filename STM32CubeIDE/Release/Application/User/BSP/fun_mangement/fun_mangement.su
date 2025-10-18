@@ -1,0 +1,5 @@
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/fun_mangement/fun_mangement.c:20:6:control_fun_with_co2	24	static
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/fun_mangement/fun_mangement.c:39:6:control_fun_from_UI	8	static
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/fun_mangement/fun_mangement.c:46:6:fun_forced_en_off	0	static
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/fun_mangement/fun_mangement.c:51:6:fun_forced_on	0	static
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/fun_mangement/fun_mangement.c:56:6:set_fun_in_manuel_mode	0	static

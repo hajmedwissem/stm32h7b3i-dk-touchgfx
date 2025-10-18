@@ -1,0 +1,8 @@
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/fun/fun.c:84:6:fun_PWM_Start	0	static
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/fun/fun.c:106:6:set_fun_speed	8	static
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/fun/fun.c:72:6:fun_init	48	static
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/fun/fun.c:123:7:turn_off_fun	0	static
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/fun/fun.c:131:6:fun_forced_off	0	static
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/fun/fun.c:139:6:fun_force_on	0	static
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/fun/fun.c:144:6:turn_fun_on	0	static
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/fun/fun.c:148:6:fun_in_maneul_mode	0	static

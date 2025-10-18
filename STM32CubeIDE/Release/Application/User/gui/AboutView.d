@@ -1,5 +1,5 @@
 Application/User/gui/AboutView.o: \
- C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/about_screen/AboutView.cpp \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/about_screen/AboutView.cpp \
  ../../TouchGFX/gui/include/gui/about_screen/AboutView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/about_screen/AboutViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

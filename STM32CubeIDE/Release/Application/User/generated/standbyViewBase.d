@@ -1,5 +1,5 @@
 Application/User/generated/standbyViewBase.o: \
- C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/generated/gui_generated/src/standby_screen/standbyViewBase.cpp \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/standby_screen/standbyViewBase.cpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/standby_screen/standbyViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \
@@ -71,7 +71,9 @@ Application/User/generated/standbyViewBase.o: \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ScalableImage.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp \
  ../../TouchGFX/generated/images/include/images/BitmapDatabase.hpp \
- ../../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp
+ ../../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp \
+ ../../Core/Inc/../BSP/fun_mangement/fun_mangement.h \
+ ../../Core/Inc/../BSP/water_pump_mangement/water_pimp_mangement.h
 ../../TouchGFX/generated/gui_generated/include/gui_generated/standby_screen/standbyViewBase.hpp:
 ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp:
 ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp:
@@ -144,3 +146,5 @@ Application/User/generated/standbyViewBase.o: \
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp:
 ../../TouchGFX/generated/images/include/images/BitmapDatabase.hpp:
 ../../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp:
+../../Core/Inc/../BSP/fun_mangement/fun_mangement.h:
+../../Core/Inc/../BSP/water_pump_mangement/water_pimp_mangement.h:

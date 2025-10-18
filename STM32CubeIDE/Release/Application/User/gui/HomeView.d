@@ -1,5 +1,5 @@
 Application/User/gui/HomeView.o: \
- C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/home_screen/HomeView.cpp \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/home_screen/HomeView.cpp \
  ../../TouchGFX/gui/include/gui/home_screen/HomeView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/home_screen/HomeViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
