@@ -80,11 +80,11 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ScalableImage.hpp:35:7:virtual touchgfx::ScalableImage::~ScalableImage()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<AboutViewBase, const touchgfx::AbstractButtonContainer&>::~Callback()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<AboutViewBase, const touchgfx::AbstractButtonContainer&>::~Callback()	16	static
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/about_screen/AboutViewBase.cpp:9:1:AboutViewBase::AboutViewBase()	280	static
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/about_screen/AboutViewBase.cpp:68:1:AboutViewBase::~AboutViewBase()	16	static
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/about_screen/AboutViewBase.cpp:68:1:virtual AboutViewBase::~AboutViewBase()	16	static
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/about_screen/AboutViewBase.cpp:73:6:virtual void AboutViewBase::setupScreen()	16	static
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/about_screen/AboutViewBase.cpp:78:6:void AboutViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	16	static
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/about_screen/AboutViewBase.cpp:9:1:AboutViewBase::AboutViewBase()	280	static
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/about_screen/AboutViewBase.cpp:68:1:AboutViewBase::~AboutViewBase()	16	static
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/about_screen/AboutViewBase.cpp:68:1:virtual AboutViewBase::~AboutViewBase()	16	static
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/about_screen/AboutViewBase.cpp:73:6:virtual void AboutViewBase::setupScreen()	16	static
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/about_screen/AboutViewBase.cpp:78:6:void AboutViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	16	static
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:39:5:touchgfx::View<T>::View() [with T = AboutPresenter]	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:35:7:touchgfx::ClickButtonTrigger::ClickButtonTrigger()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:48:5:touchgfx::ImageButtonStyle<T>::ImageButtonStyle() [with T = touchgfx::ClickButtonTrigger]	32	static

@@ -8,6 +8,6 @@
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:11:13:virtual ModelListener::~ModelListener()	16	static
 ../../TouchGFX/gui/include/gui/about_screen/AboutPresenter.hpp:28:13:AboutPresenter::~AboutPresenter()	16	static
 ../../TouchGFX/gui/include/gui/about_screen/AboutPresenter.hpp:28:13:virtual AboutPresenter::~AboutPresenter()	16	static
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/about_screen/AboutPresenter.cpp:4:1:AboutPresenter::AboutPresenter(AboutView&)	16	static
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/about_screen/AboutPresenter.cpp:10:6:virtual void AboutPresenter::activate()	16	static
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/about_screen/AboutPresenter.cpp:15:6:virtual void AboutPresenter::deactivate()	16	static
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/about_screen/AboutPresenter.cpp:4:1:AboutPresenter::AboutPresenter(AboutView&)	16	static
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/about_screen/AboutPresenter.cpp:10:6:virtual void AboutPresenter::activate()	16	static
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/about_screen/AboutPresenter.cpp:15:6:virtual void AboutPresenter::deactivate()	16	static

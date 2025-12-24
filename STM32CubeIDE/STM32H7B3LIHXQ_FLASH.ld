@@ -240,13 +240,15 @@ SECTIONS
     . = ALIGN(0x4);
   } >OSPI
   
-  .itcmram :
+.itcmram :
 {
     . = ALIGN(4);
-    *(.itcmram)
-    *(.itcmram.*)
+    _sitcm = .;
+    _sitcm_flash = LOADADDR(.itcmram);
+    *(.itcmram*)
     . = ALIGN(4);
-} >ITCMRAM AT>FLASH
+    _eitcm = .;
+} > ITCMRAM AT > FLASH
 
   Video_RGB_Buffer (NOLOAD) : { *(Video_RGB_Buffer) } >SDRAM
 }

@@ -1,7 +1,7 @@
 Application/User/BSP/water_pump_mangement/water_pump_mangement.o: \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/water_pump_mangement/water_pump_mangement.c \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/water_pump_mangement/water_pimp_mangement.h \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/water_pump_mangement/../../drivers/water_pump/water_pump.h \
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/BSP/water_pump_mangement/water_pump_mangement.c \
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/BSP/water_pump_mangement/water_pimp_mangement.h \
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/BSP/water_pump_mangement/../../drivers/water_pump/water_pump.h \
  ../../Core/Inc/main.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../Core/Inc/stm32h7xx_hal_conf.h \
@@ -45,9 +45,9 @@ Application/User/BSP/water_pump_mangement/water_pump_mangement.o: \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/water_pump_mangement/../../settings/Settings.h
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/water_pump_mangement/water_pimp_mangement.h:
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/water_pump_mangement/../../drivers/water_pump/water_pump.h:
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/BSP/water_pump_mangement/../../settings/Settings.h
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/BSP/water_pump_mangement/water_pimp_mangement.h:
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/BSP/water_pump_mangement/../../drivers/water_pump/water_pump.h:
 ../../Core/Inc/main.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../Core/Inc/stm32h7xx_hal_conf.h:
@@ -91,4 +91,4 @@ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/water_pump_m
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/BSP/water_pump_mangement/../../settings/Settings.h:
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/BSP/water_pump_mangement/../../settings/Settings.h:

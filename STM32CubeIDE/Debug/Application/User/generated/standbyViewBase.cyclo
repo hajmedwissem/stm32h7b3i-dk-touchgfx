@@ -80,11 +80,11 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ScalableImage.hpp:35:7:virtual touchgfx::ScalableImage::~ScalableImage()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<standbyViewBase, const touchgfx::AbstractButtonContainer&>::~Callback()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<standbyViewBase, const touchgfx::AbstractButtonContainer&>::~Callback()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/standby_screen/standbyViewBase.cpp:11:1:standbyViewBase::standbyViewBase()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/standby_screen/standbyViewBase.cpp:57:1:standbyViewBase::~standbyViewBase()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/standby_screen/standbyViewBase.cpp:57:1:virtual standbyViewBase::~standbyViewBase()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/standby_screen/standbyViewBase.cpp:62:6:virtual void standbyViewBase::setupScreen()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/standby_screen/standbyViewBase.cpp:67:6:void standbyViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	2
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/standby_screen/standbyViewBase.cpp:11:1:standbyViewBase::standbyViewBase()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/standby_screen/standbyViewBase.cpp:57:1:standbyViewBase::~standbyViewBase()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/standby_screen/standbyViewBase.cpp:57:1:virtual standbyViewBase::~standbyViewBase()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/standby_screen/standbyViewBase.cpp:62:6:virtual void standbyViewBase::setupScreen()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/standby_screen/standbyViewBase.cpp:67:6:void standbyViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	2
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:39:5:touchgfx::View<T>::View() [with T = standbyPresenter]	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:35:7:touchgfx::ClickButtonTrigger::ClickButtonTrigger()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:48:5:touchgfx::ImageButtonStyle<T>::ImageButtonStyle() [with T = touchgfx::ClickButtonTrigger]	1

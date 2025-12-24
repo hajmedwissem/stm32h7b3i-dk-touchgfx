@@ -265,12 +265,12 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<StatusViewBase, const touchgfx::AbstractButtonContainer&>::~Callback()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:touchgfx::Callback<StatusViewBase, const touchgfx::Slider&, int>::~Callback()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:virtual touchgfx::Callback<StatusViewBase, const touchgfx::Slider&, int>::~Callback()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/status_screen/StatusViewBase.cpp:10:1:StatusViewBase::StatusViewBase()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/status_screen/StatusViewBase.cpp:157:1:StatusViewBase::~StatusViewBase()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/status_screen/StatusViewBase.cpp:157:1:virtual StatusViewBase::~StatusViewBase()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/status_screen/StatusViewBase.cpp:162:6:virtual void StatusViewBase::setupScreen()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/status_screen/StatusViewBase.cpp:167:6:void StatusViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	2
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/status_screen/StatusViewBase.cpp:178:6:void StatusViewBase::sliderValueChangedCallbackHandler(const touchgfx::Slider&, int)	3
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/status_screen/StatusViewBase.cpp:10:1:StatusViewBase::StatusViewBase()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/status_screen/StatusViewBase.cpp:157:1:StatusViewBase::~StatusViewBase()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/status_screen/StatusViewBase.cpp:157:1:virtual StatusViewBase::~StatusViewBase()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/status_screen/StatusViewBase.cpp:162:6:virtual void StatusViewBase::setupScreen()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/status_screen/StatusViewBase.cpp:167:6:void StatusViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	2
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/status_screen/StatusViewBase.cpp:178:6:void StatusViewBase::sliderValueChangedCallbackHandler(const touchgfx::Slider&, int)	3
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Utils.hpp:105:3:T touchgfx::abs(T) [with T = int]	1
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:39:5:touchgfx::View<T>::View() [with T = StatusPresenter]	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/graph/GraphWrapAndClear.hpp:69:5:touchgfx::GraphWrapAndClear<CAPACITY>::GraphWrapAndClear() [with short int CAPACITY = 100]	1

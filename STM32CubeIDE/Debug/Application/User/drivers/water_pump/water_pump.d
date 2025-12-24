@@ -1,5 +1,5 @@
 Application/User/drivers/water_pump/water_pump.o: \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/water_pump/water_pump.c \
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/drivers/water_pump/water_pump.c \
  ../../Core/Inc/main.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../Core/Inc/stm32h7xx_hal_conf.h \
@@ -43,8 +43,8 @@ Application/User/drivers/water_pump/water_pump.o: \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/water_pump/water_pump.h \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/water_pump/../../settings/Settings.h
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/drivers/water_pump/water_pump.h \
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/drivers/water_pump/../../settings/Settings.h
 ../../Core/Inc/main.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../Core/Inc/stm32h7xx_hal_conf.h:
@@ -88,5 +88,5 @@ Application/User/drivers/water_pump/water_pump.o: \
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/water_pump/water_pump.h:
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/water_pump/../../settings/Settings.h:
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/drivers/water_pump/water_pump.h:
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/drivers/water_pump/../../settings/Settings.h:

@@ -8,6 +8,6 @@
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:11:13:virtual ModelListener::~ModelListener()	1
 ../../TouchGFX/gui/include/gui/settings_screen/settingsPresenter.hpp:28:13:settingsPresenter::~settingsPresenter()	1
 ../../TouchGFX/gui/include/gui/settings_screen/settingsPresenter.hpp:28:13:virtual settingsPresenter::~settingsPresenter()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/settings_screen/settingsPresenter.cpp:4:1:settingsPresenter::settingsPresenter(settingsView&)	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/settings_screen/settingsPresenter.cpp:10:6:virtual void settingsPresenter::activate()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/settings_screen/settingsPresenter.cpp:15:6:virtual void settingsPresenter::deactivate()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/settings_screen/settingsPresenter.cpp:4:1:settingsPresenter::settingsPresenter(settingsView&)	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/settings_screen/settingsPresenter.cpp:10:6:virtual void settingsPresenter::activate()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/settings_screen/settingsPresenter.cpp:15:6:virtual void settingsPresenter::deactivate()	1
