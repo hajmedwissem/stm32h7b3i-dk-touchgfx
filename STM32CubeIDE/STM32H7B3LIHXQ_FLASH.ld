@@ -250,5 +250,15 @@ SECTIONS
     _eitcm = .;
 } > ITCMRAM AT > FLASH
 
+
+.dtcmram :
+{
+    . = ALIGN(4);
+    _sdtcm = .;
+    _sdtcm_flash = LOADADDR(.dtcmram);
+    *(.dtcmram*)
+    . = ALIGN(4);
+    _edtcm = .;
+} > DTCMRAM AT > FLASH
   Video_RGB_Buffer (NOLOAD) : { *(Video_RGB_Buffer) } >SDRAM
 }
