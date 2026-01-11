@@ -20,7 +20,7 @@
 #define Hum_queue_max_size 		30
 
 
-struct{
+__attribute__((section(".dtcmram"))) struct{
 	uint8_t data[Hum_queue_max_size];
 	uint8_t indexFirst;
 	uint8_t size;

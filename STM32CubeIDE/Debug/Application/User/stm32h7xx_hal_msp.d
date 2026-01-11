@@ -1,5 +1,5 @@
 Application/User/stm32h7xx_hal_msp.o: \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/Src/stm32h7xx_hal_msp.c \
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/Src/stm32h7xx_hal_msp.c \
  ../../Core/Inc/main.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../Core/Inc/stm32h7xx_hal_conf.h \

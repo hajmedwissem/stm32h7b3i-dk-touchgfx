@@ -1,4 +1,4 @@
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c:65:1:forward_DCT	312	static
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c:128:1:forward_DCT_float	312	static
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c:180:1:start_pass_fdctmgr	64	static
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c:464:1:jinit_forward_dct	24	static
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c:65:1:forward_DCT	312	static
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c:128:1:forward_DCT_float	312	static
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c:180:1:start_pass_fdctmgr	64	static
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c:464:1:jinit_forward_dct	24	static

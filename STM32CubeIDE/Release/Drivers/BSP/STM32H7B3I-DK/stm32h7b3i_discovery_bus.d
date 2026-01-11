@@ -1,6 +1,6 @@
 Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_bus.o: \
- C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_bus.c \
- C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_bus.h \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_bus.c \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_bus.h \
  ../../Core/Inc/stm32h7b3i_discovery_conf.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../Core/Inc/stm32h7xx_hal_conf.h \
@@ -24,6 +24,9 @@ Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_bus.o: \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma2d.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h \
+ ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h \
+ ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h \
+ ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc_ex.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h \
@@ -41,8 +44,8 @@ Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_bus.o: \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
- C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_errno.h
-C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_bus.h:
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_errno.h
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_bus.h:
 ../../Core/Inc/stm32h7b3i_discovery_conf.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../Core/Inc/stm32h7xx_hal_conf.h:
@@ -66,6 +69,9 @@ C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discov
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma2d.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h:
+../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h:
+../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h:
+../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc_ex.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h:
@@ -83,4 +89,4 @@ C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discov
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
-C:/Users/wisse/Desktop/tpe/tpe_09_04/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_errno.h:
+C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_errno.h:

@@ -55,9 +55,10 @@ extern portBASE_TYPE IdleTaskHook(void* p);
 
 /* Hook prototypes */
 void vApplicationIdleHook(void);
+#ifdef DEBUG
 void vApplicationStackOverflowHook(xTaskHandle xTask, signed char *pcTaskName);
 void vApplicationMallocFailedHook(void);
-
+#endif
 /* USER CODE BEGIN 2 */
 void vApplicationIdleHook(void)
 {
@@ -74,7 +75,7 @@ void vApplicationIdleHook(void)
     vTaskSetApplicationTaskTag(NULL, IdleTaskHook);
 }
 /* USER CODE END 2 */
-
+#ifdef DEBUG
 /* USER CODE BEGIN 4 */
 void vApplicationStackOverflowHook(xTaskHandle xTask, signed char *pcTaskName)
 {
@@ -104,7 +105,7 @@ void vApplicationMallocFailedHook(void)
    provide information on how the remaining heap might be fragmented). */
 }
 /* USER CODE END 5 */
-
+#endif
 /* Private application code --------------------------------------------------*/
 /* USER CODE BEGIN Application */
      

@@ -2403,10 +2403,12 @@ static void FreeBlock (MemPool_t *mp, void *block) {
 /* Callback function prototypes */
 extern void vApplicationIdleHook (void);
 extern void vApplicationTickHook (void);
-extern void vApplicationMallocFailedHook (void);
-extern void vApplicationDaemonTaskStartupHook (void);
-extern void vApplicationStackOverflowHook (TaskHandle_t xTask, signed char *pcTaskName);
 
+extern void vApplicationDaemonTaskStartupHook (void);
+#ifdef DEBUG
+extern void vApplicationMallocFailedHook (void);
+extern void vApplicationStackOverflowHook (TaskHandle_t xTask, signed char *pcTaskName);
+#endif
 /**
   Dummy implementation of the callback function vApplicationIdleHook().
 */

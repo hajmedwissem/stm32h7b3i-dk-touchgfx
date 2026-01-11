@@ -156,17 +156,17 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<settingsViewBase, const touchgfx::AbstractButton&>::~Callback()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:touchgfx::Callback<settingsViewBase, const touchgfx::Slider&, int>::~Callback()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:290:8:virtual touchgfx::Callback<settingsViewBase, const touchgfx::Slider&, int>::~Callback()	16	static
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:15:1:settingsViewBase::settingsViewBase()	656	static
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:200:1:settingsViewBase::~settingsViewBase()	16	static
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:200:1:virtual settingsViewBase::~settingsViewBase()	16	static
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:205:6:virtual void settingsViewBase::setupScreen()	16	static
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:210:6:void settingsViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	16	static
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:221:6:void settingsViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	16	static
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:252:6:void settingsViewBase::sliderValueChangedCallbackHandler(const touchgfx::Slider&, int)	24	static
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:291:6:void settingsViewBase::display_manuel_setting(bool)	16	static
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:307:6:void settingsViewBase::display_auto_setting(bool)	16	static
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:312:6:void settingsViewBase::display_pump_settings(bool)	16	static
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:316:6:void settingsViewBase::display_fun_settings(bool)	16	static
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:15:1:settingsViewBase::settingsViewBase()	656	static
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:200:1:settingsViewBase::~settingsViewBase()	16	static
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:200:1:virtual settingsViewBase::~settingsViewBase()	16	static
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:205:6:virtual void settingsViewBase::setupScreen()	16	static
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:210:6:void settingsViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	16	static
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:221:6:void settingsViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	16	static
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:252:6:void settingsViewBase::sliderValueChangedCallbackHandler(const touchgfx::Slider&, int)	24	static
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:291:6:void settingsViewBase::display_manuel_setting(bool)	16	static
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:307:6:void settingsViewBase::display_auto_setting(bool)	16	static
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:312:6:void settingsViewBase::display_pump_settings(bool)	16	static
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp:316:6:void settingsViewBase::display_fun_settings(bool)	16	static
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:39:5:touchgfx::View<T>::View() [with T = settingsPresenter]	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:35:7:touchgfx::ClickButtonTrigger::ClickButtonTrigger()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:48:5:touchgfx::ImageButtonStyle<T>::ImageButtonStyle() [with T = touchgfx::ClickButtonTrigger]	32	static

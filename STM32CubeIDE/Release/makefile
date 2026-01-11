@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (12.3.rel1)
+# Toolchain: GNU Tools for STM32 (13.3.rel1)
 ################################################################################
 
 -include ../makefile.init
@@ -16,12 +16,23 @@ RM := rm -rf
 -include Drivers/CMSIS/subdir.mk
 -include Drivers/BSP/STM32H7B3I-DK/subdir.mk
 -include Drivers/BSP/Components/subdir.mk
+-include Application/User/settings/subdir.mk
 -include Application/User/gui/subdir.mk
 -include Application/User/generated/subdir.mk
+-include Application/User/drivers/water_pump/subdir.mk
+-include Application/User/drivers/hum_drv/subdir.mk
+-include Application/User/drivers/fun/subdir.mk
+-include Application/User/drivers/co2_drv/subdir.mk
+-include Application/User/drivers/subdir.mk
 -include Application/User/TouchGFX/target/generated/subdir.mk
 -include Application/User/TouchGFX/target/subdir.mk
 -include Application/User/TouchGFX/App/subdir.mk
 -include Application/User/LIBJPEG/App/subdir.mk
+-include Application/User/BSP/water_pump_mangement/subdir.mk
+-include Application/User/BSP/hum_manager/subdir.mk
+-include Application/User/BSP/fun_mangement/subdir.mk
+-include Application/User/BSP/co2_sensor_mangement/subdir.mk
+-include Application/User/BSP/subdir.mk
 -include Application/User/subdir.mk
 -include Application/Startup/subdir.mk
 -include objects.mk
@@ -99,8 +110,8 @@ all: main-build
 main-build: STM32H7B3I-DK.elf secondary-outputs
 
 # Tool invocations
-STM32H7B3I-DK.elf STM32H7B3I-DK.map: $(OBJS) $(USER_OBJS) C:\Users\wisse\Desktop\tpe\tpe_09_04\STM32CubeIDE\STM32H7B3LIHXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "STM32H7B3I-DK.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\wisse\Desktop\tpe\tpe_09_04\STM32CubeIDE\STM32H7B3LIHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32H7B3I-DK.map" -Wl,--gc-sections -static -L../../Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+STM32H7B3I-DK.elf STM32H7B3I-DK.map: $(OBJS) $(USER_OBJS) C:\Users\wisse\Desktop\stm_projetcs\stm32h7b3i-dk-touchgfx\STM32CubeIDE\STM32H7B3LIHXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "STM32H7B3I-DK.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\wisse\Desktop\stm_projetcs\stm32h7b3i-dk-touchgfx\STM32CubeIDE\STM32H7B3LIHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32H7B3I-DK.map" -Wl,--gc-sections -static -L../../Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

@@ -27,7 +27,7 @@
 
 
 
-struct{
+__attribute__((section(".dtcmram"))) struct{
 	float_t data[co2_queue_max_size];
 	uint16_t indexFirst;
 	uint16_t size;

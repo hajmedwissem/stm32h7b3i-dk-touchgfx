@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/generated/HardwareMJPEGDecoder.o: \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/HardwareMJPEGDecoder.cpp \
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/HardwareMJPEGDecoder.cpp \
  ../../TouchGFX/target/generated/HardwareMJPEGDecoder.hpp \
  ../../TouchGFX/target/generated/MJPEGDecoder.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \

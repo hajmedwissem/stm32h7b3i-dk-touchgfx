@@ -1,6 +1,6 @@
 Application/User/settings/Settings.o: \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/settings/Settings.c \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/settings/Settings.h \
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/settings/Settings.c \
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/settings/Settings.h \
  ../../Core/Inc/main.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../Core/Inc/stm32h7xx_hal_conf.h \
@@ -49,7 +49,7 @@ Application/User/settings/Settings.o: \
  ../../Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_errno.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/settings/Settings.h:
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/settings/Settings.h:
 ../../Core/Inc/main.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../Core/Inc/stm32h7xx_hal_conf.h:

@@ -1,5 +1,5 @@
 Application/User/gui/Start_on_animationView.o: \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/start_on_animation_screen/Start_on_animationView.cpp \
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/start_on_animation_screen/Start_on_animationView.cpp \
  ../../TouchGFX/gui/include/gui/start_on_animation_screen/Start_on_animationView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/start_on_animation_screen/Start_on_animationViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

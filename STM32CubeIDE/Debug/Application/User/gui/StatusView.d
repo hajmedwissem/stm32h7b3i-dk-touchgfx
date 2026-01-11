@@ -1,5 +1,5 @@
 Application/User/gui/StatusView.o: \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/status_screen/StatusView.cpp \
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/status_screen/StatusView.cpp \
  ../../TouchGFX/gui/include/gui/status_screen/StatusView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/status_screen/StatusViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

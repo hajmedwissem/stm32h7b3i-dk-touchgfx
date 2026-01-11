@@ -1,5 +1,5 @@
 Application/User/gui/AboutPresenter.o: \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/about_screen/AboutPresenter.cpp \
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/about_screen/AboutPresenter.cpp \
  ../../TouchGFX/gui/include/gui/about_screen/AboutView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/about_screen/AboutViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

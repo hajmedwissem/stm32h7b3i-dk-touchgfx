@@ -1,5 +1,5 @@
 Application/User/drivers/fun/fun.o: \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/fun/fun.c \
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/drivers/fun/fun.c \
  ../../Core/Inc/main.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../Core/Inc/stm32h7xx_hal_conf.h \
@@ -43,8 +43,8 @@ Application/User/drivers/fun/fun.o: \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/fun/fun.h \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/fun/../../settings/Settings.h
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/drivers/fun/fun.h \
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/drivers/fun/../../settings/Settings.h
 ../../Core/Inc/main.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../Core/Inc/stm32h7xx_hal_conf.h:
@@ -88,5 +88,5 @@ Application/User/drivers/fun/fun.o: \
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/fun/fun.h:
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/fun/../../settings/Settings.h:
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/drivers/fun/fun.h:
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/drivers/fun/../../settings/Settings.h:

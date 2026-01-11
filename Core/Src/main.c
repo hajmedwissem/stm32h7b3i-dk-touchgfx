@@ -124,7 +124,32 @@ static void SDRAM_Initialization_Sequence(SDRAM_HandleTypeDef *hsdram, FMC_SDRAM
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+extern uint32_t _sitcm;
+extern uint32_t _eitcm;
+extern uint32_t _sitcm_flash;
+extern uint32_t _sdtcm;
+extern uint32_t _edtcm;
+extern uint32_t _sdtcm_flash;
 
+SCB_Type *my_scb = (SCB_Type *)SCB_BASE;
+
+
+void Copy_ITCM_DTCM_Code(void)
+{
+	my_scb->ITCMCR |= 3;
+	my_scb->DTCMCR |=3;
+
+
+    uint32_t *src = &_sitcm_flash;
+    uint32_t *dst = &_sitcm;
+
+    while (dst < &_eitcm)
+        *dst++ = *src++;
+    src = &_sdtcm_flash;
+    dst =&_sdtcm;
+    while (dst < &_edtcm)
+		*dst++ = *src++;
+}
 /* USER CODE END 0 */
 
 /**

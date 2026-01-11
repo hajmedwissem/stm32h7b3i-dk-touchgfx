@@ -1,5 +1,5 @@
 Application/User/drivers/hum_drv/hum_drv.o: \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/hum_drv/hum_drv.c \
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/drivers/hum_drv/hum_drv.c \
  ../../Core/Inc/main.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../Core/Inc/stm32h7xx_hal_conf.h \
@@ -43,7 +43,7 @@ Application/User/drivers/hum_drv/hum_drv.o: \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/hum_drv/hum_drv.h
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/drivers/hum_drv/hum_drv.h
 ../../Core/Inc/main.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../Core/Inc/stm32h7xx_hal_conf.h:
@@ -87,4 +87,4 @@ Application/User/drivers/hum_drv/hum_drv.o: \
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/drivers/hum_drv/hum_drv.h:
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/drivers/hum_drv/hum_drv.h:

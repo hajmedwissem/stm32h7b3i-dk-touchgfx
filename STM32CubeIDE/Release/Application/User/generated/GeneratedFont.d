@@ -1,5 +1,5 @@
 Application/User/generated/GeneratedFont.o: \
- C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/generated/fonts/src/GeneratedFont.cpp \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/fonts/src/GeneratedFont.cpp \
  ../../TouchGFX/generated/fonts/include/fonts/GeneratedFont.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/ConstFont.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \

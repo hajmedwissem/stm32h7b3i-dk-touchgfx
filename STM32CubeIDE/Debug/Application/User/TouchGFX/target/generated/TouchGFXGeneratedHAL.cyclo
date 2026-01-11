@@ -94,7 +94,7 @@
 ../../Drivers/CMSIS/Include/core_cm7.h:1902:22:void __NVIC_EnableIRQ(IRQn_Type)	2
 ../../Drivers/CMSIS/Include/core_cm7.h:1940:22:void __NVIC_DisableIRQ(IRQn_Type)	2
 ../../Drivers/CMSIS/Include/core_cm7.h:2032:22:void __NVIC_SetPriority(IRQn_Type, uint32_t)	2
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:40:18:static touchgfx::VideoController& touchgfx::VideoController::getInstance()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:40:18:static touchgfx::VideoController& touchgfx::VideoController::getInstance()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VectorRenderer.hpp:38:7:constexpr touchgfx::VectorRenderer::VectorRenderer()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRVectorRenderer.hpp:197:11:touchgfx::CWRVectorRenderer::CanvasWidgetProxy::CanvasWidgetProxy()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRVectorRenderer.hpp:197:11:touchgfx::CWRVectorRenderer::CanvasWidgetProxy::~CanvasWidgetProxy()	1
@@ -110,23 +110,23 @@ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/gener
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRVectorRenderer.hpp:334:7:touchgfx::CWRVectorRendererRGB888::CWRVectorRendererRGB888()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRVectorRenderer.hpp:334:7:touchgfx::CWRVectorRendererRGB888::~CWRVectorRendererRGB888()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRVectorRenderer.hpp:334:7:virtual touchgfx::CWRVectorRendererRGB888::~CWRVectorRendererRGB888()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:49:36:void __tcf_1()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:47:17:static touchgfx::VectorRenderer* touchgfx::VectorRenderer::getInstance()	3
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:69:6:virtual void TouchGFXGeneratedHAL::initialize()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:87:6:virtual void TouchGFXGeneratedHAL::configureInterrupts()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:93:6:virtual void TouchGFXGeneratedHAL::enableInterrupts()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:99:6:virtual void TouchGFXGeneratedHAL::disableInterrupts()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:105:6:virtual void TouchGFXGeneratedHAL::enableLCDControllerInterrupt()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:116:6:virtual bool TouchGFXGeneratedHAL::beginFrame()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:121:6:virtual void TouchGFXGeneratedHAL::endFrame()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:128:11:virtual uint16_t* TouchGFXGeneratedHAL::getTFTFrameBuffer() const	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:133:6:virtual void TouchGFXGeneratedHAL::setTFTFrameBuffer(uint16_t*)	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:141:6:virtual void TouchGFXGeneratedHAL::flushFrameBuffer(const touchgfx::Rect&)	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:146:6:virtual bool TouchGFXGeneratedHAL::blockCopy(void*, const void*, uint32_t)	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:151:6:virtual void TouchGFXGeneratedHAL::InvalidateCache()	4
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:164:6:virtual void TouchGFXGeneratedHAL::FlushCache()	4
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:177:17:void videoTaskFunc(void*)	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:184:10:void HAL_LTDC_LineEventCallback(LTDC_HandleTypeDef*)	3
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:49:36:void __tcf_1()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:47:17:static touchgfx::VectorRenderer* touchgfx::VectorRenderer::getInstance()	3
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:69:6:virtual void TouchGFXGeneratedHAL::initialize()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:87:6:virtual void TouchGFXGeneratedHAL::configureInterrupts()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:93:6:virtual void TouchGFXGeneratedHAL::enableInterrupts()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:99:6:virtual void TouchGFXGeneratedHAL::disableInterrupts()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:105:6:virtual void TouchGFXGeneratedHAL::enableLCDControllerInterrupt()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:116:6:virtual bool TouchGFXGeneratedHAL::beginFrame()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:121:6:virtual void TouchGFXGeneratedHAL::endFrame()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:128:11:virtual uint16_t* TouchGFXGeneratedHAL::getTFTFrameBuffer() const	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:133:6:virtual void TouchGFXGeneratedHAL::setTFTFrameBuffer(uint16_t*)	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:141:6:virtual void TouchGFXGeneratedHAL::flushFrameBuffer(const touchgfx::Rect&)	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:146:6:virtual bool TouchGFXGeneratedHAL::blockCopy(void*, const void*, uint32_t)	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:151:6:virtual void TouchGFXGeneratedHAL::InvalidateCache()	4
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:164:6:virtual void TouchGFXGeneratedHAL::FlushCache()	4
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:177:17:void videoTaskFunc(void*)	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:184:10:void HAL_LTDC_LineEventCallback(LTDC_HandleTypeDef*)	3
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VideoController.hpp:85:7:constexpr touchgfx::VideoController::VideoController()	1
 ../../TouchGFX/target/generated/DedicatedBufferVideoController.hpp:52:5:DedicatedBufferController<no_streams, width, height, stride, output_format>::DedicatedBufferController() [with long unsigned int no_streams = 1; long unsigned int width = 480; long unsigned int height = 272; long unsigned int stride = 1440; touchgfx::Bitmap::BitmapFormat output_format = touchgfx::Bitmap::RGB888]	2
 ../../TouchGFX/target/generated/DedicatedBufferVideoController.hpp:255:10:void DedicatedBufferController<no_streams, width, height, stride, output_format>::addDecoder(MJPEGDecoder&, uint32_t) [with long unsigned int no_streams = 1; long unsigned int width = 480; long unsigned int height = 272; long unsigned int stride = 1440; touchgfx::Bitmap::BitmapFormat output_format = touchgfx::Bitmap::RGB888]	1
@@ -139,10 +139,10 @@ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/gener
 ../../TouchGFX/target/generated/DedicatedBufferVideoController.hpp:49:7:virtual DedicatedBufferController<1, 480, 272, 1440, touchgfx::Bitmap::RGB888>::~DedicatedBufferController()	1
 ../../TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp:30:7:TouchGFXGeneratedHAL::~TouchGFXGeneratedHAL()	1
 ../../TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp:30:7:virtual TouchGFXGeneratedHAL::~TouchGFXGeneratedHAL()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:214:1:void __static_initialization_and_destruction_0()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:214:1:void __static_initialization_and_destruction_0()	1
 ../../TouchGFX/target/generated/HardwareMJPEGDecoder.hpp:45:7:HardwareMJPEGDecoder::~HardwareMJPEGDecoder()	1
 ../../TouchGFX/target/generated/HardwareMJPEGDecoder.hpp:45:7:virtual HardwareMJPEGDecoder::~HardwareMJPEGDecoder()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:214:1:void __static_initialization_and_destruction_1()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:214:1:void __static_initialization_and_destruction_1()	1
 ../../TouchGFX/target/generated/DedicatedBufferVideoController.hpp:67:20:touchgfx::VideoController::Handle DedicatedBufferController<no_streams, width, height, stride, output_format>::registerVideoWidget(touchgfx::VideoWidget&) [with long unsigned int no_streams = 1; long unsigned int width = 480; long unsigned int height = 272; long unsigned int stride = 1440; touchgfx::Bitmap::BitmapFormat output_format = touchgfx::Bitmap::RGB888]	1
 ../../TouchGFX/target/generated/DedicatedBufferVideoController.hpp:96:18:void DedicatedBufferController<no_streams, width, height, stride, output_format>::unregisterVideoWidget(touchgfx::VideoController::Handle) [with long unsigned int no_streams = 1; long unsigned int width = 480; long unsigned int height = 272; long unsigned int stride = 1440; touchgfx::Bitmap::BitmapFormat output_format = touchgfx::Bitmap::RGB888]	3
 ../../TouchGFX/target/generated/DedicatedBufferVideoController.hpp:126:18:void DedicatedBufferController<no_streams, width, height, stride, output_format>::setFrameRate(touchgfx::VideoController::Handle, uint32_t, uint32_t) [with long unsigned int no_streams = 1; long unsigned int width = 480; long unsigned int height = 272; long unsigned int stride = 1440; touchgfx::Bitmap::BitmapFormat output_format = touchgfx::Bitmap::RGB888]	1
@@ -156,5 +156,5 @@ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/gener
 ../../TouchGFX/target/generated/DedicatedBufferVideoController.hpp:366:18:bool DedicatedBufferController<no_streams, width, height, stride, output_format>::getIsPlaying(touchgfx::VideoController::Handle) [with long unsigned int no_streams = 1; long unsigned int width = 480; long unsigned int height = 272; long unsigned int stride = 1440; touchgfx::Bitmap::BitmapFormat output_format = touchgfx::Bitmap::RGB888]	1
 ../../TouchGFX/target/generated/DedicatedBufferVideoController.hpp:373:18:void DedicatedBufferController<no_streams, width, height, stride, output_format>::setVideoFrameRateCompensation(bool) [with long unsigned int no_streams = 1; long unsigned int width = 480; long unsigned int height = 272; long unsigned int stride = 1440; touchgfx::Bitmap::BitmapFormat output_format = touchgfx::Bitmap::RGB888]	1
 ../../TouchGFX/target/generated/DedicatedBufferVideoController.hpp:438:12:touchgfx::VideoController::Handle DedicatedBufferController<no_streams, width, height, stride, output_format>::getFreeHandle() [with long unsigned int no_streams = 1; long unsigned int width = 480; long unsigned int height = 272; long unsigned int stride = 1440; touchgfx::Bitmap::BitmapFormat output_format = touchgfx::Bitmap::RGB888]	3
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:214:1:cpp)	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:214:1:cpp)	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:214:1:cpp)	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:214:1:cpp)	1

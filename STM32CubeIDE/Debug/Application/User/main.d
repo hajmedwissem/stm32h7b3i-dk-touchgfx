@@ -1,5 +1,5 @@
 Application/User/main.o: \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/Src/main.c \
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/Src/main.c \
  ../../Core/Inc/main.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../Core/Inc/stm32h7xx_hal_conf.h \
@@ -63,9 +63,9 @@ Application/User/main.o: \
  ../../Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_errno.h \
  ../../Drivers/BSP/STM32H7B3I-DK/../Components/mx25lm51245g/mx25lm51245g.h \
  ../../Core/Inc/mx25lm51245g_conf.h \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/Src/../BSP/BSP.h \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/Src/../drivers/drivers.h \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/Src/../settings/Settings.h
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/Src/../BSP/BSP.h \
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/Src/../drivers/drivers.h \
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/Src/../settings/Settings.h
 ../../Core/Inc/main.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../Core/Inc/stm32h7xx_hal_conf.h:
@@ -131,6 +131,6 @@ Application/User/main.o: \
 ../../Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_errno.h:
 ../../Drivers/BSP/STM32H7B3I-DK/../Components/mx25lm51245g/mx25lm51245g.h:
 ../../Core/Inc/mx25lm51245g_conf.h:
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/Src/../BSP/BSP.h:
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/Src/../drivers/drivers.h:
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/Core/Src/../settings/Settings.h:
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/Src/../BSP/BSP.h:
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/Src/../drivers/drivers.h:
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/Core/Src/../settings/Settings.h:

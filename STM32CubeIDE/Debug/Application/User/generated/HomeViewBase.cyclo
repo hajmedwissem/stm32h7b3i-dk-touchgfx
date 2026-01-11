@@ -80,11 +80,11 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:45:7:virtual touchgfx::ImageButtonStyle<touchgfx::ClickButtonTrigger>::~ImageButtonStyle()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<HomeViewBase, const touchgfx::AbstractButtonContainer&>::~Callback()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<HomeViewBase, const touchgfx::AbstractButtonContainer&>::~Callback()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:9:1:HomeViewBase::HomeViewBase()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:71:1:HomeViewBase::~HomeViewBase()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:71:1:virtual HomeViewBase::~HomeViewBase()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:76:6:virtual void HomeViewBase::setupScreen()	1
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:81:6:void HomeViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	6
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:9:1:HomeViewBase::HomeViewBase()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:71:1:HomeViewBase::~HomeViewBase()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:71:1:virtual HomeViewBase::~HomeViewBase()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:76:6:virtual void HomeViewBase::setupScreen()	1
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:81:6:void HomeViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	6
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:39:5:touchgfx::View<T>::View() [with T = HomePresenter]	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:35:7:touchgfx::ClickButtonTrigger::ClickButtonTrigger()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:48:5:touchgfx::ImageButtonStyle<T>::ImageButtonStyle() [with T = touchgfx::ClickButtonTrigger]	1

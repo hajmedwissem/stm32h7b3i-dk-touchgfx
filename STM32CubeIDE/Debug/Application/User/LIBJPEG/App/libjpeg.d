@@ -1,6 +1,6 @@
 Application/User/LIBJPEG/App/libjpeg.o: \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/LIBJPEG/App/libjpeg.c \
- C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/LIBJPEG/App/libjpeg.h \
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/LIBJPEG/App/libjpeg.c \
+ C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/LIBJPEG/App/libjpeg.h \
  ../../Middlewares/Third_Party/LibJPEG/include/jpeglib.h \
  ../../LIBJPEG/Target/jconfig.h ../../LIBJPEG/Target/jdata_conf.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
@@ -15,7 +15,7 @@ Application/User/LIBJPEG/App/libjpeg.o: \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
  ../../LIBJPEG/Target/jmorecfg.h
-C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/LIBJPEG/App/libjpeg.h:
+C:/Users/wisse/Desktop/pej/stm32h7b3i-dk-touchgfx/LIBJPEG/App/libjpeg.h:
 ../../Middlewares/Third_Party/LibJPEG/include/jpeglib.h:
 ../../LIBJPEG/Target/jconfig.h:
 ../../LIBJPEG/Target/jdata_conf.h:

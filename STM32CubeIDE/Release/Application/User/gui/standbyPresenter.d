@@ -1,5 +1,5 @@
 Application/User/gui/standbyPresenter.o: \
- C:/Users/wisse/Desktop/tpe/tpe_09_04/TouchGFX/gui/src/standby_screen/standbyPresenter.cpp \
+ C:/Users/wisse/Desktop/stm_projetcs/stm32h7b3i-dk-touchgfx/TouchGFX/gui/src/standby_screen/standbyPresenter.cpp \
  ../../TouchGFX/gui/include/gui/standby_screen/standbyView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/standby_screen/standbyViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
