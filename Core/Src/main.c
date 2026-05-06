@@ -140,14 +140,14 @@ void Copy_ITCM_DTCM_Code(void)
 	my_scb->DTCMCR |=3;
 
 
-    uint32_t *src = &_sitcm_flash;
+   const uint32_t *src = &_sitcm_flash;
     uint32_t *dst = &_sitcm;
 
-    while (dst < &_eitcm)
+    while ((uintptr_t)dst < (uintptr_t)&_eitcm)
         *dst++ = *src++;
     src = &_sdtcm_flash;
     dst =&_sdtcm;
-    while (dst < &_edtcm)
+    while ((uintptr_t)dst < (uintptr_t)&_edtcm)
 		*dst++ = *src++;
 }
 /* USER CODE END 0 */

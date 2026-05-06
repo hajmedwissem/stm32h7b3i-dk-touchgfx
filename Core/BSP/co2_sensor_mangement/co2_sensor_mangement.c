@@ -29,8 +29,8 @@
 
 __attribute__((section(".dtcmram"))) struct{
 	float_t data[co2_queue_max_size];
-	uint16_t indexFirst;
-	uint16_t size;
+	uint8_t indexFirst;
+	uint8_t size;
 }co2_queue;
 
 
@@ -76,6 +76,7 @@ void start_co2_task(void)
 
 static void co2_task(void* parametre)
 {
+	(void) parametre;
 	for(;;)
 	{
 		float voltage=((float)read_co2_sensor()/ 65535.0f)*3.3f;
@@ -96,11 +97,11 @@ static void co2_task(void* parametre)
 
 
 static __attribute__((section(".itcmram"))) void add_co2_to_queue(float_t co2){
-	uint16_t index =0;
+
 
 	if(co2_queue.size < (co2_queue_max_size-1)){
 		// there is a space in queue
-		index = (co2_queue.indexFirst+co2_queue.size)%co2_queue_max_size;
+		uint8_t index = (co2_queue.indexFirst+co2_queue.size)%co2_queue_max_size;
 		co2_queue.data[index] = co2;
 		co2_queue.size++;
 	}else{

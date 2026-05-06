@@ -319,6 +319,6 @@ void HardFault_Handler_C(uint32_t *stacked_regs) {
 
 static void print_reg(const char *name, uint32_t val)
 {
-    printf("%s = 0x%08lX\r\n", name, val);
+    printf("%s = 0x%08lX\r\n", name, (unsigned long)val);
 }
 /* USER CODE END 1 */

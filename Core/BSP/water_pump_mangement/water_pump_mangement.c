@@ -29,14 +29,14 @@ void control_pump_with_humidity(uint8_t hum){
 			  turn_pump_on();
 			  pump_PWM_Start();
 		  }
-	  else if (delta >= -15 && delta <= 15)
+	  else if ( delta <= 15)
 		 {
 			 // In good range --> low continuous speed
 			 set_pump_speed(30); // Example: 30% speed
 			 //pump_PWM_Start();
 		 }
 
-	  else if (delta > 15)
+	  else
 	      {
 	          // Soil is wet --> stop pump
 		  set_pump_speed(0);

@@ -73,6 +73,7 @@ void start_humidity_task(void)
 
 static void humidity_task(void* parm)
 {
+	(void)parm;
 	for(;;)
 	{
 
@@ -96,11 +97,11 @@ static void humidity_task(void* parm)
 
 
 static __attribute__((section(".itcmram"))) void add_hum_to_queue(uint8_t hum){
-	uint8_t index =0;
+
 
 	if(hum_queue.size < (Hum_queue_max_size-1)){
 		// there is a space in queue
-		index = (hum_queue.indexFirst+hum_queue.size)%Hum_queue_max_size;
+		uint8_t index = (hum_queue.indexFirst+hum_queue.size)%Hum_queue_max_size;
 		hum_queue.data[index] = hum;
 		hum_queue.size++;
 	}else{
