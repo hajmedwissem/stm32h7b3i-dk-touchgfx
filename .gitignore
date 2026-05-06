@@ -1,0 +1,8 @@
+*.bin
+*.elf
+*.list
+*.map
+!objects.list
+*.d
+*.o
+*.su
